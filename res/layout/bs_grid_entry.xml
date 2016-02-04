@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" style="@c1011u/BottomSheet_GridItem">
+    <ImageView android:id="@c1009s/bs_list_image" style="@c1011u/BottomSheet_GridItemImage" />
+    <TextView android:id="@c1009s/bs_list_title" android:layout_width="-2" android:layout_height="-2" style="@c1011u/BottomSheet_GridItemTitle" />
+</LinearLayout>

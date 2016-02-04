@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:id="0x7f0f009f" app:layout_width="-1" app:layout_height="-1">
+    <android.support.v7.widget.Toolbar app:id="0x7f0f00a1" app:background="?unknown_attr_ref: 7f01019b" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:layout_alignParentTop="true" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" />
+    <EditText app:id="0x7f0f00af" app:paddingLeft="0x7f0a009d" app:paddingRight="0x7f0a009d" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="0x7f0a009e" app:layout_marginTop="0x7f0a009e" app:layout_marginRight="0x7f0a009e" app:layout_marginBottom="0dp" app:hint="0x7f080066" app:singleLine="true" app:layout_below="0x7f0f00a1" app:imeOptions="2000000" />
+    <FrameLayout app:id="0x7f0f00a5" app:layout_width="-1" app:layout_height="-1" app:layout_below="0x7f0f00af" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="0x7f0a009e" android:paddingTop="0x7f0a009e" android:paddingRight="0x7f0a009e" android:layout_width="-1" android:layout_height="-1">
+    <CheckBox android:textColor="@c1118e/textColorPrimary" android:gravity="13" android:id="0x7f0f0127" android:paddingLeft="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0x7f0a009c" android:text="New CheckBox" />
+    <CheckBox android:textColor="@c1118e/textColorPrimary" android:gravity="13" android:id="0x7f0f0128" android:paddingLeft="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0x7f0a009c" android:text="New CheckBox" />
+    <CheckBox android:textColor="@c1118e/textColorPrimary" android:gravity="13" android:id="0x7f0f0129" android:paddingLeft="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0x7f0a009d" android:text="New CheckBox" />
+</LinearLayout>

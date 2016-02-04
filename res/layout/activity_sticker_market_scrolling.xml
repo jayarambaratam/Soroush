@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <android.support.design.widget.CoordinatorLayout app:fitsSystemWindows="false" app:layout_width="-1" app:layout_height="-1">
+        <android.support.design.widget.AppBarLayout app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" app:id="0x7f0f00d7" app:fitsSystemWindows="false" app:layout_width="-1" app:layout_height="180dp">
+            <android.support.design.widget.CollapsingToolbarLayout app:id="0x7f0f00d8" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1" app:layout_scrollFlags="3" app:contentScrim="?unknown_attr_ref: 7f01019b">
+                <include app:id="0x7f0f00c0" layout="0x7f0400ee" />
+                <android.support.v7.widget.Toolbar app:id="0x7f0f00a1" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_collapseMode="1" app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" />
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+        <include layout="0x7f040069" />
+    </android.support.design.widget.CoordinatorLayout>
+    <android.support.v7.widget.Toolbar android:id="0x7f0f00d9" android:background="0x7f0e002e" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f01015f" android:layout_alignParentTop="true" android:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" android:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" />
+</RelativeLayout>

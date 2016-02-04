@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f0f018a" android:background="0x7f0e0060" android:paddingTop="48dp" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1" android:layout_weight="6.0">
+    <FrameLayout android:clipChildren="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="4.0">
+        <ImageView android:layout_gravity="51" android:id="0x7f0f018b" android:padding="64dp" android:layout_width="-1" android:layout_height="-1" android:src="0x7f02044d" android:scaleType="3" />
+    </FrameLayout>
+    <TextView android:textAppearance="0x7f0b00d5" android:gravity="11" android:id="0x7f0f018c" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="-1" android:layout_height="0dp" android:text="0x7f080090" android:layout_weight="1.0" />
+    <TextView android:textAppearance="0x7f0b00d4" android:gravity="31" android:id="0x7f0f018d" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="-1" android:layout_height="0dp" android:minHeight="0x7f0a00b5" android:text="0x7f08008f" android:layout_weight="1.0" />
+    <View android:background="0x106000d" android:layout_width="-1" android:layout_height="48dp" />
+</LinearLayout>

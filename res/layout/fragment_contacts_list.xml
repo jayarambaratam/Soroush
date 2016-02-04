@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout recyclerviewfastscroller:id="0x7f0f009f" recyclerviewfastscroller:layout_width="-1" recyclerviewfastscroller:layout_height="-1">
+    <android.support.v7.widget.RecyclerView recyclerviewfastscroller:id="0x7f0f0145" recyclerviewfastscroller:layout_width="-1" recyclerviewfastscroller:layout_height="-1" style="0x7f0b0018" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout wheel:id="0x7f0f0109" wheel:background="0x7f020056" wheel:layout_width="-1" wheel:layout_height="40dp" wheel:layout_marginTop="0x7f0a009c" wheel:layout_marginBottom="0x7f0a009d" wheel:onClick="onLoadMoreClicked">
+    <TextView wheel:textSize="0x7f0a0088" wheel:textStyle="1" wheel:textColor="0x7f0e009b" wheel:layout_gravity="11" wheel:id="0x7f0f010a" wheel:clickable="true" wheel:layout_width="-2" wheel:layout_height="-2" wheel:text="0x7f0800a1" wheel:layout_centerInParent="true" wheel:textAllCaps="true" />
+    <com.pnikosis.materialishprogress.ProgressWheel wheel:id="0x7f0f010b" wheel:visibility="2" wheel:layout_width="20dp" wheel:layout_height="20dp" wheel:layout_marginLeft="0x7f0a009d" wheel:layout_toRightOf="0x7f0f010a" wheel:layout_centerVertical="true" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="0x7f0e009b" wheel:matProg_barWidth="3dp" wheel:matProg_linearProgress="true" />
+</RelativeLayout>

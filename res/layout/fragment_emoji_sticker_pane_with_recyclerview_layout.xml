@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="0x7f0e004e" android:layout_width="-1" android:layout_height="-1">
+    <mobi.mmdt.ott.view.components.recyclerviewpager.RecyclerViewPager android:id="0x7f0f00d5" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:layout_below="0x7f0f0179" />
+    <RelativeLayout android:id="0x7f0f0179" android:layout_width="-1" android:layout_height="0x7f0a00b3" android:layout_alignParentTop="true">
+        <View android:background="0x7f02045f" android:layout_width="-1" android:layout_height="2dp" android:layout_alignParentTop="true" />
+        <View android:background="0x7f02045c" android:layout_width="-1" android:layout_height="2dp" android:layout_alignParentBottom="true" />
+        <ImageButton android:id="0x7f0f017b" android:padding="8dp" android:layout_width="48dp" android:layout_height="-1" android:src="0x7f0203e8" android:scaleType="7" android:layout_alignParentRight="true" style="0x7f0b007c" />
+    </RelativeLayout>
+</RelativeLayout>

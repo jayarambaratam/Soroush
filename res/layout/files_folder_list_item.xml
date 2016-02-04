@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app1:clickable="true" app1:layout_width="-1" app1:layout_height="0x7f0a0099" style="0x7f0b007c">
+    <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app1:layout_gravity="10" app1:id="0x7f0f00ea" app1:layout_width="0x7f0a005e" app1:layout_height="0x7f0a005e" app1:layout_marginLeft="0x7f0a009d" app1:background_color="0x106000b" app1:text_color="0x106000b" />
+    <RelativeLayout app1:paddingLeft="0x7f0a0098" app1:layout_width="-1" app1:layout_height="-1">
+        <View app1:id="0x7f0f012f" app1:layout_width="-1" app1:layout_height="2dp" app1:layout_centerVertical="true" />
+        <TextView app1:textSize="0x7f0a0060" app1:textColor="@c1118e/textColorPrimary" app1:gravity="3" app1:id="0x7f0f00eb" app1:paddingRight="0x7f0a009e" app1:layout_width="-1" app1:layout_height="-2" app1:text="New Text" app1:singleLine="true" app1:layout_above="0x7f0f012f" />
+        <TextView app1:textSize="0x7f0a005f" app1:textColor="0x7f0e0094" app1:gravity="13" app1:id="0x7f0f00ec" app1:paddingRight="0x7f0a009e" app1:layout_width="-1" app1:layout_height="-2" app1:text="New Text" app1:singleLine="true" app1:layout_below="0x7f0f012f" />
+    </RelativeLayout>
+    <View app1:layout_gravity="30" app1:id="0x7f0f00ee" app1:background="0x7f0e004d" app1:layout_width="-1" app1:layout_height="1px" app1:layout_marginLeft="0x7f0a0098" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView wheel:layout_width="-1" wheel:layout_height="-1" wheel:layout_behavior="@c0045i/appbar_scrolling_view_behavior">
+    <RelativeLayout wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_behavior="@c0045i/appbar_scrolling_view_behavior">
+        <android.support.design.widget.TabLayout wheel:id="0x7f0f00d2" wheel:layout_width="-1" wheel:layout_height="42dp" wheel:layout_alignParentTop="true" />
+        <View wheel:background="0x7f0e0030" wheel:layout_width="-1" wheel:layout_height="1dp" wheel:layout_below="0x7f0f00d2" />
+        <android.support.v4.view.ViewPager wheel:id="0x7f0f00c8" wheel:background="0x7f0e0094" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginTop="2dp" wheel:layout_below="0x7f0f00d2" wheel:layout_alignParentBottom="true" wheel:layout_behavior="@c0045i/appbar_scrolling_view_behavior" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

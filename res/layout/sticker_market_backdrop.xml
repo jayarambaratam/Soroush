@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:paddingTop="?unknown_attr_ref: 7f01015f" android:layout_width="-1" android:layout_height="-2">
+    <fragment android:name="mobi.mmdt.ott.view.stickermarket.StickerMarketTopFragment" android:id="0x7f0f00dd" android:layout_width="-1" android:layout_height="128dp" android:layout_below="0x7f0f00a1" />
+</FrameLayout>

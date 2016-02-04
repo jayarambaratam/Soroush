@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="0x7f0e002e" android:paddingLeft="0x7f0a004c" android:paddingTop="0x7f0a004d" android:paddingRight="0x7f0a004c" android:paddingBottom="0x7f0a004d" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="0x7f0f0191" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="#ffffff" android:id="@c1119f/textView" android:layout_width="-2" android:layout_height="-2" android:text="Large Text" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

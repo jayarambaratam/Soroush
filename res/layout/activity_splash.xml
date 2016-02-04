@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="0x7f0f00a0" app:background="0x7f0e002e" app:layout_width="-1" app:layout_height="-1" app:scaleType="6" />
+    <android.support.v7.widget.Toolbar app:theme="0x7f0b012a" app:id="0x7f0f00a1" app:background="@c1118e/transparent" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:layout_alignParentTop="true" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" />
+    <fragment app:name="mobi.mmdt.ott.view.splash.SplashFragment" app:id="0x7f0f00db" app:layout_width="-1" app:layout_height="-1" app:layout_below="0x7f0f00a1" />
+</FrameLayout>

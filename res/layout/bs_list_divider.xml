@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cocosw.bottomsheet.HeaderLayout android:id="@c1009s/headerlayout" android:layout_width="-1" android:layout_height="-2">
+    <View android:id="@c1009s/header" style="@c1011u/BottomSheet_ListDivider" />
+</com.cocosw.bottomsheet.HeaderLayout>

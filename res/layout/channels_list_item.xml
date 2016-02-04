@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView wheel:id="0x7f0f00e9" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginLeft="0x7f0a009d" wheel:layout_marginTop="0x7f0a009c" wheel:layout_marginRight="0x7f0a009d" wheel:layout_marginBottom="0x7f0a009c" wheel:cardCornerRadius="0x7f0a009c" wheel:cardElevation="2dp">
+    <LinearLayout wheel:orientation="1" wheel:layout_width="-1" wheel:layout_height="-2">
+        <FrameLayout wheel:layout_width="-1" wheel:layout_height="0x7f0a0099">
+            <ImageView wheel:layout_gravity="10" wheel:id="0x7f0f00ea" wheel:layout_width="0x7f0a005e" wheel:layout_height="0x7f0a005e" wheel:layout_marginLeft="8dp" />
+            <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="10" wheel:id="@c1119f/progress_wheel" wheel:layout_width="0x7f0a005e" wheel:layout_height="0x7f0a005e" wheel:layout_marginLeft="8dp" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+            <LinearLayout wheel:layout_gravity="10" wheel:orientation="1" wheel:paddingLeft="0x7f0a0098" wheel:paddingRight="0x7f0a009e" wheel:layout_width="-1" wheel:layout_height="-2">
+                <TextView wheel:textSize="0x7f0a0060" wheel:textColor="@c1118e/textColorPrimary" wheel:gravity="3" wheel:id="0x7f0f00eb" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="New Text" wheel:singleLine="true" />
+                <TextView wheel:textSize="0x7f0a005f" wheel:textColor="0x7f0e0094" wheel:gravity="3" wheel:id="0x7f0f00ec" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="New Text" wheel:singleLine="true" />
+            </LinearLayout>
+        </FrameLayout>
+        <TextView wheel:textSize="0x7f0a005f" wheel:textColor="@c1118e/textColorPrimary" wheel:id="0x7f0f00ed" wheel:paddingLeft="0x7f0a009e" wheel:paddingTop="0dp" wheel:paddingRight="0x7f0a009e" wheel:paddingBottom="0x7f0a009d" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="New Text" />
+        <View wheel:id="0x7f0f00ee" wheel:background="0x7f0e004d" wheel:layout_width="-1" wheel:layout_height="1px" wheel:layout_marginLeft="0x7f0a009e" wheel:layout_marginRight="0x7f0a009e" />
+        <LinearLayout wheel:gravity="5" wheel:orientation="0" wheel:padding="0x7f0a009c" wheel:layout_width="-1" wheel:layout_height="-2">
+            <android.support.v7.widget.AppCompatButton wheel:textSize="12sp" wheel:textColor="@c1118e/textColorPrimary" wheel:id="0x7f0f00ef" wheel:paddingLeft="0x7f0a009d" wheel:paddingRight="0x7f0a009d" wheel:layout_width="-2" wheel:layout_height="42dp" wheel:text="0x7f0800f7" style="@c1011u/Base_Widget_AppCompat_Button_Borderless" />
+            <android.support.v7.widget.AppCompatButton wheel:textSize="12sp" wheel:textColor="@c1118e/textColorPrimary" wheel:id="0x7f0f00b8" wheel:paddingLeft="0x7f0a009d" wheel:paddingRight="0x7f0a009d" wheel:layout_width="-2" wheel:layout_height="42dp" wheel:text="0x7f08007c" style="@c1011u/Base_Widget_AppCompat_Button_Borderless" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

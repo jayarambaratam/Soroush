@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout wheel:paddingLeft="0x7f0a009d" wheel:paddingTop="0x7f0a009c" wheel:paddingRight="0x7f0a009a" wheel:paddingBottom="0x7f0a009c" wheel:clickable="true" wheel:layout_width="-1" wheel:layout_height="-1">
+    <include wheel:id="0x7f0f00f0" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginBottom="0x7f0a009d" wheel:layout_alignParentTop="true" layout="0x7f040042" />
+    <include wheel:id="0x7f0f00f1" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginBottom="0x7f0a009d" wheel:layout_below="0x7f0f00f0" layout="0x7f04005f" />
+    <View wheel:background="0x7f0e000d" wheel:layout_width="0x7f0a0061" wheel:layout_height="0x7f0a0062" wheel:layout_marginLeft="0x7f0a0062" wheel:layout_below="0x7f0f00f1" wheel:layout_alignParentLeft="true" />
+    <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView wheel:id="0x7f0f00f6" wheel:layout_width="0x7f0a0061" wheel:layout_height="0x7f0a0061" wheel:layout_below="0x7f0f00f1" wheel:layout_alignParentLeft="true" wheel:background_color="0x106000b" wheel:text_color="0x106000b" />
+    <LinearLayout wheel:orientation="1" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_toRightOf="0x7f0f00f6" wheel:layout_below="0x7f0f00f1">
+        <TextView wheel:textSize="0x7f0a00b2" wheel:textStyle="1" wheel:gravity="3" wheel:id="0x7f0f00f8" wheel:background="0x7f020057" wheel:paddingLeft="0x7f0a009d" wheel:paddingTop="0x7f0a009c" wheel:paddingRight="0x7f0a009d" wheel:paddingBottom="0x7f0a009c" wheel:layout_width="-2" wheel:layout_height="-2" wheel:text="Sender Name" wheel:singleLine="true" />
+        <ViewStub wheel:id="0x7f0f00f9" wheel:layout="0x7f040050" wheel:inflatedId="0x7f0f00f9" wheel:layout_width="-2" wheel:layout_height="-2" />
+        <FrameLayout wheel:id="0x7f0f0102" wheel:padding="0x7f0a009c" wheel:layout_width="-2" wheel:layout_height="-2">
+            <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="11" wheel:id="@c1119f/progress_wheel" wheel:layout_width="56dp" wheel:layout_height="56dp" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+            <ImageView wheel:id="0x7f0f0104" wheel:paddingTop="0x7f0a009c" wheel:paddingBottom="0x7f0a009c" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_marginBottom="20dp" />
+            <RelativeLayout wheel:layout_gravity="55" wheel:background="0x7f020058" wheel:paddingLeft="0x7f0a009c" wheel:paddingTop="2dp" wheel:paddingRight="0x7f0a009c" wheel:paddingBottom="2dp" wheel:layout_width="-2" wheel:layout_height="-2">
+                <ImageView wheel:id="0x7f0f00fe" wheel:visibility="2" wheel:layout_width="0x7f0a009e" wheel:layout_height="0x7f0a009e" wheel:layout_marginLeft="0x7f0a009c" wheel:src="0x7f020422" wheel:layout_toRightOf="0x7f0f00f4" wheel:layout_alignBottom="0x7f0f00f4" />
+                <TextView wheel:textSize="0x7f0a005c" wheel:textColor="0x7f0e009b" wheel:id="0x7f0f00f4" wheel:layout_width="-2" wheel:layout_height="-2" wheel:text="New Text" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

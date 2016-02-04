@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="42dp" style="0x7f0b007c">
+    <TextView android:layout_gravity="11" android:id="@c1119f/textView" android:layout_width="-2" android:layout_height="-2" android:text="New Text" />
+</FrameLayout>

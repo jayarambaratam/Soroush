@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f0f018a" android:background="0x7f0e0062" android:paddingTop="48dp" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1" android:layout_weight="6.0">
+    <FrameLayout android:id="0x7f0f018e" android:clipChildren="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="4.0">
+        <ImageView android:gravity="11" android:layout_gravity="51" android:id="0x7f0f018b" android:padding="64dp" android:layout_width="-1" android:layout_height="-1" android:src="0x7f02044f" android:scaleType="3" />
+    </FrameLayout>
+    <TextView android:textAppearance="0x7f0b00d4" android:textColorLink="0x7f0e0095" android:gravity="30" android:id="0x7f0f018c" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="-1" android:layout_height="0dp" android:text="0x7f080092" android:layout_weight="1.0" />
+    <RelativeLayout android:id="0x7f0f018d" android:layout_width="-1" android:layout_height="0dp" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:minHeight="0x7f0a00b5" android:layout_weight="1.0">
+        <android.support.v7.widget.AppCompatCheckBox android:textAppearance="0x7f0b00d4" android:textColor="0x7f0e009b" android:gravity="30" android:id="0x7f0f01a9" android:layout_width="-1" android:layout_height="-2" android:text="0x7f080091" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <View android:background="0x106000d" android:layout_width="-1" android:layout_height="48dp" />
+</LinearLayout>

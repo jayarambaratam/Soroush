@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="0x7f0f00c6" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="0x7f0f0146" android:background="0x7f0e0027" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp" android:layout_alignParentBottom="true">
+        <EditText android:textColor="0x106000b" android:textColorHint="0x7f0e0028" android:gravity="10" android:id="0x7f0f0147" android:paddingLeft="16dp" android:paddingTop="0x7f0a009d" android:paddingRight="16dp" android:paddingBottom="0x7f0a009d" android:scrollbars="200" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp" android:hint="0x7f08004c" android:maxLines="5" android:inputType="20001" />
+    </FrameLayout>
+</RelativeLayout>

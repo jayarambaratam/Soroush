@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <solid android:color="0x7f0e009b" />
+    <stroke android:width="1dp" android:color="0x7f0e0030" android:dashGap="0px" />
+    <corners android:topLeftRadius="0x7f0a009c" android:topRightRadius="0x7f0a009c" android:bottomLeftRadius="0x7f0a009c" android:bottomRightRadius="0x7f0a009c" />
+</shape>

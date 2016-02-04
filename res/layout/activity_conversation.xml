@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout app:id="0x7f0f00a3" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:orientation="1" app:background="0x7f0e009b" app:layout_width="-1" app:layout_height="-1">
+        <android.support.v7.widget.Toolbar app:id="0x7f0f00a1" app:background="?unknown_attr_ref: 7f01019b" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:layout_alignParentTop="true" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar">
+            <RelativeLayout app:layout_width="-1" app:layout_height="-1">
+                <android.support.v7.widget.Toolbar app:id="0x7f0f00b0" app:paddingLeft="?unknown_attr_ref: 7f01015f" app:clickable="true" app:layout_width="-2" app:layout_height="?unknown_attr_ref: 7f01015f" app:layout_alignParentLeft="true" app:layout_alignParentRight="true" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" style="0x7f0b00d6" />
+                <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:id="0x7f0f00b1" app:layout_width="0x7f0a0005" app:layout_height="0x7f0a0005" app:layout_marginLeft="0x7f0a009c" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:background_color="0x106000b" app:text_color="0x106000b" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+        <FrameLayout app:id="0x7f0f00b2" app:background="0x7f0e0034" app:layout_width="-1" app:layout_height="-2" app:layout_above="0x7f0f00b3" app:layout_below="0x7f0f00a1" />
+        <View app:background="#dddddd" app:layout_width="-1" app:layout_height="1dp" app:layout_above="0x7f0f00b3" app:layout_alignWithParentIfMissing="true" />
+        <LinearLayout app:orientation="1" app:id="0x7f0f00b3" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true" app:layout_alignWithParentIfMissing="true">
+            <FrameLayout app:id="0x7f0f00b4" app:layout_width="-1" app:layout_height="-2">
+                <ViewStub app:id="0x7f0f00b5" app:layout="0x7f0400da" app:inflatedId="0x7f0f00b5" app:layout_width="-1" app:layout_height="-2" />
+            </FrameLayout>
+            <FrameLayout app:id="0x7f0f00b6" app:layout_width="-1" app:layout_height="-2">
+                <fragment app:name="mobi.mmdt.ott.view.conversation.conversationtextbox.ConversationTextBoxFragment" app:id="0x7f0f00b7" app:layout_width="-1" app:layout_height="-2" />
+            </FrameLayout>
+            <Button app:id="0x7f0f00b8" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="0x7f0a009e" app:layout_marginTop="0x7f0a009c" app:layout_marginRight="0x7f0a009e" app:layout_marginBottom="0x7f0a009c" app:text="0x7f08007c" style="0x7f0b00d7" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

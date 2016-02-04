@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cocosw.bottomsheet.ClosableSlidingLayout android:layout_width="-2" android:layout_height="-2">
+    <LinearLayout android:layout_gravity="50" android:orientation="1" android:background="?unknown_attr_ref: 7f010031" android:layout_width="-1" android:layout_height="-2">
+        <View style="@c1011u/BottomSheet_TopDivider" />
+        <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView android:id="@c1009s/bottom_sheet_title_image" android:visibility="2" style="@c1011u/BottomSheet_Icon" />
+            <TextView android:id="@c1009s/bottom_sheet_title" android:visibility="2" style="@c1011u/BottomSheet_Title" />
+        </LinearLayout>
+        <com.cocosw.bottomsheet.PinnedSectionGridView android:id="@c1009s/bottom_sheet_gridview" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-2" android:numColumns="?unknown_attr_ref: 7f010034" style="?unknown_attr_ref: 7f010032" />
+    </LinearLayout>
+</com.cocosw.bottomsheet.ClosableSlidingLayout>

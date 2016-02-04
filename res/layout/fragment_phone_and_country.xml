@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:paddingLeft="0x7f0a004c" app:paddingTop="0x7f0a004c" app:paddingRight="0x7f0a004c" app:paddingBottom="0x7f0a004d" app:layout_width="-1" app:layout_height="-1">
+    <android.support.design.widget.TextInputLayout app:id="0x7f0f0192" app:paddingTop="0x7f0a009d" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:hintTextAppearance="@c1011u/TextAppearance_AppCompat">
+        <EditText app:enabled="false" app:textColor="0x7f0e00a9" app:id="0x7f0f0193" app:paddingLeft="0x7f0a009d" app:paddingRight="0x7f0a009d" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:text="0x7f0800a3" app:hint="0x7f08006b" app:ems="10" app:windowSoftInputMode="2" />
+    </android.support.design.widget.TextInputLayout>
+    <View app:id="0x7f0f0194" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_alignLeft="0x7f0f0192" app:layout_alignTop="0x7f0f0192" app:layout_alignRight="0x7f0f0192" app:layout_alignBottom="0x7f0f0192" style="0x7f0b007c" />
+    <RelativeLayout app:id="0x7f0f0195" app:layout_width="-1" app:layout_height="-1" app:layout_marginTop="0x7f0a009e" app:layout_below="0x7f0f0192" app:layout_alignParentLeft="true">
+        <android.support.design.widget.TextInputLayout app:id="0x7f0f0196" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:hintTextAppearance="@c1011u/TextAppearance_AppCompat">
+            <EditText app:enabled="false" app:textColor="0x7f0e00a9" app:id="0x7f0f0197" app:paddingLeft="0x7f0a009d" app:paddingRight="0x7f0a009c" app:layout_width="-1" app:layout_height="-2" app:text="+" app:hint="0x7f08006a" app:minEms="3" app:inputType="3" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout app:id="0x7f0f0198" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="0x7f0f0196" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:hintTextAppearance="@c1011u/TextAppearance_AppCompat">
+            <EditText app:textColor="0x7f0e00a9" app:id="0x7f0f0199" app:paddingLeft="0x7f0a009d" app:paddingRight="0x7f0a009d" app:layout_width="-1" app:layout_height="-2" app:hint="@c1136d/phone_number" app:inputType="3" app:imeOptions="2000000">
+                <requestFocus />
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+        <TextView app:paddingLeft="0x7f0a009d" app:paddingRight="0x7f0a009d" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="32dp" app:text="0x7f0800b9" app:layout_below="0x7f0f0196" app:layout_alignParentLeft="true" app:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

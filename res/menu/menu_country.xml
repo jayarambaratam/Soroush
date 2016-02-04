@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@c0363f/abc_ic_search_api_mtrl_alpha" app:id="0x7f0f020e" app:title="0x7f080040" app:showAsAction="2" app:actionViewClass="android.support.v7.widget.SearchView" />
+</menu>

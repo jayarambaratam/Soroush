@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actor_names">
+        <item>Alec Baldwin</item>
+        <item>Alec Guiness</item>
+        <item>Arnold Schwarzenegger</item>
+        <item>Ben Kingsley</item>
+        <item>Ben Stiller</item>
+        <item>Benicio Del Toro</item>
+        <item>Bill Murray</item>
+        <item>Charlie Chaplin</item>
+        <item>Charlton Heston</item>
+        <item>Christopher Lee</item>
+        <item>Christopher Plummer</item>
+        <item>Christopher Walken</item>
+        <item>Clark Gable</item>
+        <item>Ed Harris</item>
+        <item>Gene Wilder</item>
+        <item>Geoffrey rush</item>
+        <item>George C. Scott</item>
+        <item>George Clooney</item>
+        <item>Harvey Kietel</item>
+        <item>Hugo Weaving</item>
+        <item>Ian McKellen</item>
+        <item>James Caan</item>
+        <item>James Cagney</item>
+        <item>Javier Bardem</item>
+        <item>Jim Carrey</item>
+        <item>Joe Pesci</item>
+        <item>John Cusack</item>
+        <item>John Travolta</item>
+        <item>Jon Voight</item>
+        <item>Kevin Bacon</item>
+        <item>Kevin Costner</item>
+        <item>Mark Wahlberg</item>
+        <item>Matt Damon</item>
+        <item>Mel Gibson</item>
+        <item>Michael Douglas</item>
+        <item>Nicolas Cage</item>
+        <item>Patrick Swayze</item>
+        <item>Peter Sellers</item>
+        <item>Philip Seymour Hoffman</item>
+        <item>Richard Burton</item>
+        <item>Robert Downey Jr.</item>
+        <item>Samuel L. Jackson</item>
+        <item>Steve Martin</item>
+        <item>Steve McQueen</item>
+        <item>Sylvester Stallone</item>
+        <item>Tim Robbins</item>
+        <item>Tommy Lee Jones</item>
+        <item>Viggo Mortensen</item>
+        <item>Willem Dafoe</item>
+        <item>Woody allen</item>
+    </string-array>
+    <string-array name="colors">
+        <item>\#99cc00</item>
+        <item>\#33b5e5</item>
+        <item>\#0099cc</item>
+        <item>\#547bca</item>
+        <item>\#aa66cc</item>
+        <item>\#9933cc</item>
+        <item>\#669900</item>
+        <item>\#aeb857</item>
+        <item>\#cc0000</item>
+        <item>\#df5948</item>
+        <item>\#ff4444</item>
+        <item>\#ae6b23</item>
+        <item>\#ff8800</item>
+        <item>\#e5ae4f</item>
+        <item>\#ffbb33</item>
+        <item>\#888888</item>
+    </string-array>
+    <array name="incoming_call_widget_2way_targets">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <string-array name="tunnel_mode_entries">
+        <item>disabled</item>
+        <item>3G only</item>
+        <item>always</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="tunnel_mode_entry_values">
+        <item>@string/tunnel_mode_entry_value_disabled</item>
+        <item>@string/tunnel_mode_entry_value_3G_only</item>
+        <item>@string/tunnel_mode_entry_value_always</item>
+        <item>@string/tunnel_mode_entry_value_auto</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="0x7f0f00e0" android:clickable="true" android:layout_width="-1" android:layout_height="-1"
+    <FrameLayout android:layout_gravity="11" android:id="0x7f0f0102" android:background="0x7f0e002d" android:layout_width="-1" android:layout_height="-1" style="0x7f0b007d">
+        <ImageView android:id="0x7f0f0104" android:layout_width="-2" android:layout_height="-2" />
+        <ImageView android:id="0x7f0f01ba" android:layout_width="-1" android:layout_height="-1" android:src="0x7f020447" />
+    </FrameLayout>
+    <CheckBox android:layout_gravity="35" android:id="0x7f0f01bb" android:paddingLeft="0x7f0a009d" android:paddingBottom="0x7f0a009d" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0x7f0a009d" android:layout_marginRight="0x7f0a009d" android:text="" />
+</FrameLayout>

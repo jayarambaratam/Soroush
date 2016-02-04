@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout custom:orientation="1" custom:background="0x7f0e002e" custom:layout_width="-1" custom:layout_height="-1">
+    <mobi.mmdt.ott.view.components.imageslider.SliderLayout custom:id="0x7f0f019f" custom:layout_width="-1" custom:layout_height="-1" />
+</LinearLayout>

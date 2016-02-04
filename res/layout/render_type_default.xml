@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout wheel:layout_width="-1" wheel:layout_height="-1">
+    <ImageView wheel:id="0x7f0f01d2" wheel:layout_width="-1" wheel:layout_height="-1" />
+    <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="10" wheel:id="0x7f0f01d3" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_centerInParent="true" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+</RelativeLayout>

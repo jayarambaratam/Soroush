@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout wheel:background="#eeeeee" wheel:layout_width="-1" wheel:layout_height="-1">
+    <com.pnikosis.materialishprogress.ProgressWheel wheel:id="@c1119f/progress_wheel" wheel:layout_width="0x7f0a005e" wheel:layout_height="0x7f0a005e" wheel:layout_centerInParent="true" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+    <android.support.v7.widget.RecyclerView wheel:id="0x7f0f0145" wheel:layout_width="-1" wheel:layout_height="-1" style="0x7f0b0019" />
+</RelativeLayout>

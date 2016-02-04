@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.internal.NavigationMenuView android:id="@c0043g/design_navigation_view" android:paddingTop="@c0041e/design_navigation_padding_top_default" android:paddingBottom="@c0041e/design_navigation_padding_bottom" android:scrollbars="200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />

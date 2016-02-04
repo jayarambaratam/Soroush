@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="0x7f0e009b" app:layout_width="-1" app:layout_height="-1">
+    <ListView app:id="0x102000a" app:background="0x7f0e009b" app:padding="3dp" app:fadingEdge="0" app:layout_width="-1" app:layout_height="-1" app:layout_marginLeft="3dp" app:layout_marginTop="3dp" app:layout_marginRight="3dp" app:cacheColorHint="@c1118e/transparent" app:divider="0x7f020452" />
+    <TextView app:textColor="@c1118e/textColorPrimary" app:gravity="11" app:id="0x1020004" app:layout_width="-1" app:layout_height="-1" app:text="" />
+    <ProgressBar app:id="0x7f0f01e5" app:visibility="0" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true" />
+</RelativeLayout>

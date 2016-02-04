@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout emojicon:paddingLeft="0x7f0a009d" emojicon:paddingTop="0x7f0a009c" emojicon:paddingRight="0x7f0a009d" emojicon:paddingBottom="0x7f0a009c" emojicon:clickable="true" emojicon:layout_width="-1" emojicon:layout_height="-1">
+    <include emojicon:id="0x7f0f00f0" emojicon:layout_width="-1" emojicon:layout_height="-2" emojicon:layout_marginBottom="0x7f0a009d" emojicon:layout_alignParentTop="true" layout="0x7f040042" />
+    <include emojicon:id="0x7f0f00f1" emojicon:layout_width="-1" emojicon:layout_height="-2" emojicon:layout_marginBottom="0x7f0a009d" emojicon:layout_below="0x7f0f00f0" layout="0x7f04005f" />
+    <View emojicon:background="0x7f0e000d" emojicon:layout_width="0x7f0a0061" emojicon:layout_height="0x7f0a0062" emojicon:layout_marginLeft="0x7f0a0062" emojicon:layout_below="0x7f0f00f1" emojicon:layout_alignParentLeft="true" />
+    <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView emojicon:id="0x7f0f00f6" emojicon:layout_width="0x7f0a0061" emojicon:layout_height="0x7f0a0061" emojicon:layout_below="0x7f0f00f1" emojicon:layout_alignParentLeft="true" emojicon:background_color="0x106000b" emojicon:text_color="0x106000b" />
+    <LinearLayout emojicon:orientation="1" emojicon:background="0x7f020059" emojicon:layout_width="-2" emojicon:layout_height="-2" emojicon:layout_marginRight="0x7f0a009b" emojicon:layout_toRightOf="0x7f0f00f6" emojicon:layout_below="0x7f0f00f1">
+        <TextView emojicon:textSize="0x7f0a00b2" emojicon:textStyle="1" emojicon:gravity="3" emojicon:id="0x7f0f00f8" emojicon:paddingLeft="0x7f0a009d" emojicon:paddingTop="0x7f0a009c" emojicon:paddingRight="0x7f0a009d" emojicon:layout_width="-2" emojicon:layout_height="-2" emojicon:text="Sender Name" emojicon:singleLine="true" />
+        <ViewStub emojicon:id="0x7f0f00f9" emojicon:layout="0x7f040050" emojicon:inflatedId="0x7f0f00f9" emojicon:layout_width="-2" emojicon:layout_height="-2" emojicon:layout_below="0x7f0f00f8" />
+        <mobi.mmdt.ott.view.conversation.emojisticker.emoji.emojicon.EmojiconTextView emojicon:textSize="0x7f0a005b" emojicon:textColor="@c1118e/textColorPrimary" emojicon:id="0x7f0f010c" emojicon:paddingLeft="0x7f0a009d" emojicon:paddingTop="0x7f0a009c" emojicon:paddingRight="0x7f0a009d" emojicon:paddingBottom="0x7f0a009c" emojicon:layout_width="-2" emojicon:layout_height="-2" emojicon:minWidth="64dp" emojicon:text="New Text" emojicon:layout_below="0x7f0f00f9" emojicon:emojiconSize="0x7f0a0085" emojicon:emojiconAlignment="1" />
+        <RelativeLayout emojicon:layout_gravity="5" emojicon:paddingLeft="0x7f0a009c" emojicon:paddingTop="0x7f0a009c" emojicon:paddingRight="0x7f0a009d" emojicon:paddingBottom="0x7f0a009c" emojicon:layout_width="-2" emojicon:layout_height="-2">
+            <ImageView emojicon:id="0x7f0f00fe" emojicon:visibility="2" emojicon:layout_width="0x7f0a009e" emojicon:layout_height="0x7f0a009e" emojicon:layout_marginLeft="0x7f0a009c" emojicon:src="0x7f020420" emojicon:layout_toRightOf="0x7f0f00f4" emojicon:layout_alignBottom="0x7f0f00f4" />
+            <TextView emojicon:textSize="0x7f0a005c" emojicon:textColor="0x7f0e0035" emojicon:id="0x7f0f00f4" emojicon:layout_width="-2" emojicon:layout_height="-2" emojicon:text="New Text" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

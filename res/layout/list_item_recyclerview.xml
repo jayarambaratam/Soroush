@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:clickable="true" app:layout_width="-1" app:layout_height="-1" style="0x7f0b007c">
+    <RelativeLayout app:clickable="true" app:duplicateParentState="true" app:layout_width="-1" app:layout_height="-1">
+        <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:id="0x7f0f00ea" app:layout_width="0x7f0a005e" app:layout_height="0x7f0a005e" app:layout_margin="4dp" app:background_color="0x106000b" app:text_color="0x106000b" />
+        <TextView app:textSize="0x7f0a0060" app:textColor="@c1118e/textColorPrimary" app:id="0x7f0f00ec" app:paddingLeft="0x7f0a009d" app:paddingRight="0x7f0a009e" app:layout_width="-2" app:layout_height="-2" app:text="New Text" app:layout_toRightOf="0x7f0f00ea" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View app:id="0x7f0f00ee" app:background="0x7f0e004d" app:layout_width="-1" app:layout_height="1px" />
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="0x7f0a009e" android:paddingTop="0x7f0a009e" android:paddingRight="0x7f0a009e" android:layout_width="-1" android:layout_height="-1">
+    <TimePicker android:id="0x7f0f012a" android:layout_width="-2" android:layout_height="-2" />
+</LinearLayout>

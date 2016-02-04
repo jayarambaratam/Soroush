@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout app:id="0x7f0f00bb" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+    <android.support.design.widget.AppBarLayout app:theme="0x7f0b0090" app:id="0x7f0f00bc" app:paddingTop="0x7f0a009d" app:layout_width="-1" app:layout_height="-2">
+        <android.support.v7.widget.Toolbar app:id="0x7f0f00a1" app:background="?unknown_attr_ref: 7f01019b" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" />
+        <android.support.design.widget.TabLayout app:id="0x7f0f00d2" app:layout_width="-1" app:layout_height="-2" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager app:id="0x7f0f00c8" app:layout_width="-1" app:layout_height="-1" app:layout_behavior="@c0045i/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

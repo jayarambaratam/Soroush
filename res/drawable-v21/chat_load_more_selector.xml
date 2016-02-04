@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="0x7f0e0024">
+    <item android:drawable="0x7f020054" />
+</ripple>

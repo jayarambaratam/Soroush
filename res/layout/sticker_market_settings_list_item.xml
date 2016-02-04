@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout wheel:id="0x7f0f00a3" wheel:clickable="true" wheel:layout_width="-1" wheel:layout_height="0x7f0a0099" style="0x7f0b007c">
+    <ImageView wheel:layout_gravity="10" wheel:id="0x7f0f00ea" wheel:layout_width="0x7f0a005e" wheel:layout_height="0x7f0a005e" wheel:layout_marginLeft="32dp" />
+    <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="10" wheel:id="@c1119f/progress_wheel" wheel:layout_width="0x7f0a005e" wheel:layout_height="0x7f0a005e" wheel:layout_marginLeft="32dp" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+    <RelativeLayout wheel:layout_gravity="10" wheel:orientation="1" wheel:paddingLeft="102dp" wheel:layout_width="-1" wheel:layout_height="-2">
+        <TextView wheel:textSize="0x7f0a0060" wheel:textColor="@c1118e/textColorPrimary" wheel:gravity="3" wheel:id="0x7f0f00eb" wheel:paddingRight="0x7f0a009e" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="New Text" wheel:singleLine="true" wheel:layout_toLeftOf="0x7f0f0130" wheel:layout_centerVertical="true" />
+        <CheckBox wheel:id="0x7f0f0130" wheel:paddingRight="32dp" wheel:layout_width="-2" wheel:layout_height="-1" wheel:text="" wheel:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View wheel:layout_gravity="30" wheel:id="0x7f0f00ee" wheel:background="0x7f0e004d" wheel:layout_width="-1" wheel:layout_height="1px" wheel:layout_marginLeft="0x7f0a0098" />
+</FrameLayout>

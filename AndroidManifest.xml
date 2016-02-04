@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="91" android:versionName="0.6.1" package="mobi.mmdt.ott" platformBuildVersionCode="23" platformBuildVersionName="6.0-2166767">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <application android:theme="0x7f0b0034" android:label="@c1136d/app_name" android:icon="0x7f030001" android:name="mobi.mmdt.ott.MyApplication" android:allowBackup="true" android:hardwareAccelerated="true" android:supportsRtl="false">
+        <activity android:label="@c1136d/app_name" android:name="mobi.mmdt.ott.view.splash.SplashActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:host="channel" />
+                <data android:host="share" />
+                <data android:host="soroush-app.me" />
+                <data android:scheme="https" />
+                <data android:scheme="soroush" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x7f0b0091" android:label="@c1136d/app_name" android:name="mobi.mmdt.ott.view.main.MainActivity" android:launchMode="singleTask" />
+        <activity android:label="0x7f080014" android:name="mobi.mmdt.ott.view.about.AboutActivity" android:screenOrientation="portrait" />
+        <activity android:label="0x7f0800d9" android:name="mobi.mmdt.ott.view.settings.mainsettings.MainSettingsListActivity" />
+        <activity android:label="0x7f0800bd" android:name="mobi.mmdt.ott.view.settings.mainsettings.privacy.PrivacySettingsListActivity" />
+        <activity android:label="0x7f0800a5" android:name="mobi.mmdt.ott.view.settings.mainsettings.messages.MessagesSettingsListActivity" />
+        <activity android:label="0x7f0800b2" android:name="mobi.mmdt.ott.view.settings.mainsettings.notifications.NotificationsSettingsListActivity" />
+        <activity android:label="0x7f0800a8" android:name="mobi.mmdt.ott.view.settings.mainsettings.network.NetworkSettingsListActivity" />
+        <activity android:name="mobi.mmdt.ott.view.stickermarket.StickerMarketActivity" android:screenOrientation="portrait" />
+        <activity android:name="mobi.mmdt.ott.view.stickermarket.StickerCategoryActivity" android:screenOrientation="portrait" />
+        <activity android:name="mobi.mmdt.ott.view.stickermarket.stickersettings.StickerSettingsActivity" />
+        <activity android:name="mobi.mmdt.ott.view.stickermarket.StickerDetailsActivity" android:screenOrientation="portrait" />
+        <activity android:theme="0x7f0b0035" android:name="mobi.mmdt.ott.view.settings.mainsettings.profile_info.ProfileInfoSettingsActivity" />
+        <activity android:name="mobi.mmdt.ott.view.components.squarecrop.SquareCropActivity" />
+        <activity android:theme="0x7f0b0035" android:name="mobi.mmdt.ott.view.contact.contactprofileinfo.ContactProfileInfoActivity" />
+        <activity android:name="mobi.mmdt.ott.view.conversation.forward.ForwardActivity" />
+        <activity android:theme="0x7f0b0035" android:name="mobi.mmdt.ott.view.registeration.profileinfo.ProfileInfoActivity" />
+        <activity android:name="mobi.mmdt.ott.view.test.TempActivity" />
+        <activity android:theme="0x7f0b012a" android:name="mobi.mmdt.ott.view.components.mediaviewer.ImageViewerActivity" android:launchMode="singleInstance" />
+        <activity android:theme="0x7f0b012a" android:name="mobi.mmdt.ott.view.components.mediaviewer.MediaViewerActivity" />
+        <activity android:name="mobi.mmdt.ott.view.settings.mainsettings.profile_info.deactivate_account.DeactivateAccountActivity" />
+        <activity android:name="mobi.mmdt.ott.view.settings.forceupdate.ForceUpdateActivity" />
+        <activity android:name="mobi.mmdt.ott.view.settings.synctime.SyncTimeActivity" />
+        <activity android:name="mobi.mmdt.ott.view.registeration.activationcode.ActivationCodeActivity" />
+        <activity android:name="mobi.mmdt.ott.view.registeration.phoneandcountry.PhoneAndCountryActivity" />
+        <activity android:name="mobi.mmdt.ott.view.registeration.phoneandcountry.countryselection.CountrySelectionActivity" />
+        <activity android:theme="0x7f0b00d3" android:name="mobi.mmdt.ott.view.conversation.activities.SingleConversationActivity" android:windowSoftInputMode="2" />
+        <activity android:theme="0x7f0b00d3" android:name="mobi.mmdt.ott.view.conversation.activities.GroupConversationActivity" android:windowSoftInputMode="2" />
+        <activity android:theme="0x7f0b00d3" android:name="mobi.mmdt.ott.view.conversation.activities.ChannelConversationActivity" android:windowSoftInputMode="2" />
+        <activity android:theme="0x7f0b00d3" android:name="mobi.mmdt.ott.view.conversation.activities.BulkMessageConversationActivity" android:windowSoftInputMode="2" />
+        <activity android:name="mobi.mmdt.ott.view.conversation.sharedmediaviewer.SharedMediaViewerActivity" />
+        <activity android:name="mobi.mmdt.ott.view.components.mediaselector.photoselection.PhotoSelectorActivity" />
+        <activity android:name="mobi.mmdt.ott.view.components.mediaselector.videoselection.VideoSelectorActivity" />
+        <activity android:name="mobi.mmdt.ott.view.components.mediaselector.MainMediaSelectorActivity" />
+        <activity android:theme="0x7f0b012a" android:name="mobi.mmdt.ott.view.components.mediacaption.MediaCaptionActivity" android:windowSoftInputMode="2" />
+        <activity android:name="mobi.mmdt.ott.view.main.NewConversationContactSelectionListActivity" android:windowSoftInputMode="2" />
+        <activity android:name="mobi.mmdt.ott.view.main.NewBulkMessageContactSelectionListActivity" android:windowSoftInputMode="2" />
+        <activity android:name="mobi.mmdt.ott.view.conversation.groupinfo.AddParticipantsGroupContactSelectionListActivity" android:windowSoftInputMode="2" />
+        <activity android:theme="0x7f0b0035" android:name="mobi.mmdt.ott.view.main.NewGroupActivity" android:windowSoftInputMode="2" />
+        <activity android:name="mobi.mmdt.ott.view.call.CallActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="2" />
+        <activity android:theme="0x7f0b00d3" android:name="mobi.mmdt.ott.view.channel.ExploreChannelsActivity" android:windowSoftInputMode="2" />
+        <activity android:theme="0x7f0b0035" android:name="mobi.mmdt.ott.view.conversation.groupinfo.GroupInfoActivity" android:windowSoftInputMode="22" />
+        <activity android:theme="0x7f0b0035" android:name="mobi.mmdt.ott.view.channel.ChannelInfoActivity" android:windowSoftInputMode="22" />
+        <activity android:name="mobi.mmdt.ott.view.main.NewGroupContactSelectionListActivity" android:windowSoftInputMode="2" />
+        <activity android:name="mobi.mmdt.ott.view.registeration.introduction.IntroductionActivity" android:screenOrientation="portrait" />
+        <activity android:name="mobi.mmdt.ott.view.components.fileselector.FileSelectorActivity" />
+        <provider android:name="mobi.mmdt.ott.provider.OttProvider" android:exported="false" android:authorities="mobi.mmdt.ott.provider" />
+        <service android:name="mobi.mmdt.ott.logic.core.StartUpService" android:exported="false" />
+        <service android:name="org.linphone.SipLibService" android:stopWithTask="false" />
+        <service android:name="mobi.mmdt.ott.logic.notifications.notifsData.NewUpdateNotificationService" android:stopWithTask="false" />
+        <receiver android:name="mobi.mmdt.ott.logic.core.OnConnectionChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="mobi.mmdt.ott.logic.core.OnScreenTurnedOnReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="mobi.mmdt.ott.logic.core.OnStartBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action._BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="mobi.mmdt.ott.logic.core.OnTimeChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

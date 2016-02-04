@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="0x106000d" app:layout_width="-1" app:layout_height="-1">
+    <android.support.v7.widget.Toolbar app:id="0x7f0f00a1" app:background="?unknown_attr_ref: 7f01019b" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:layout_alignParentTop="true" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" />
+    <android.support.v4.view.ViewPager app:id="0x7f0f00c8" app:background="@c1118e/dim_foreground_disabled_material_dark" app:layout_width="-1" app:layout_height="-1" />
+    <View app:background="#33ffffff" app:layout_width="-1" app:layout_height="1dp" app:layout_above="0x7f0f00c9" />
+    <RelativeLayout app:id="0x7f0f00c9" app:background="0x106000d" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true">
+        <Button app:textSize="18sp" app:textColor="@c1118e/abc_primary_text_material_dark" app:gravity="11" app:id="0x7f0f00ca" app:background="0x7f02045b" app:visibility="2" app:layout_width="80dp" app:layout_height="48dp" app:text="0x7f0800dc" app:layout_alignParentLeft="true" />
+        <LinearLayout app:orientation="0" app:id="0x7f0f00cb" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true" />
+        <Button app:textSize="18sp" app:textColor="@c1118e/abc_primary_text_material_dark" app:gravity="11" app:id="0x7f0f00cc" app:background="0x7f02045b" app:visibility="2" app:layout_width="80dp" app:layout_height="48dp" app:text="0x7f080073" app:layout_alignParentRight="true" />
+        <ImageButton app:gravity="11" app:id="0x7f0f00cd" app:background="0x7f02045b" app:paddingTop="12dp" app:paddingBottom="12dp" app:layout_width="80dp" app:layout_height="48dp" app:src="0x7f0203c3" app:scaleType="3" app:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

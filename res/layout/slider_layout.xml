@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout custom:layout_width="-1" custom:layout_height="-1">
+    <mobi.mmdt.ott.view.components.imageslider.Tricks.InfiniteViewPager custom:id="0x7f0f01db" custom:layout_width="-2" custom:layout_height="-2" />
+    <mobi.mmdt.ott.view.components.imageslider.Indicators.PagerIndicator custom:gravity="11" custom:id="0x7f0f01dc" custom:paddingBottom="10dp" custom:layout_width="-2" custom:layout_height="-2" custom:layout_alignParentBottom="true" custom:layout_centerHorizontal="true" custom:shape="0" />
+    <mobi.mmdt.ott.view.components.imageslider.Indicators.PagerIndicator custom:gravity="11" custom:id="0x7f0f01dd" custom:paddingRight="10dp" custom:paddingBottom="10dp" custom:layout_width="-2" custom:layout_height="-2" custom:layout_alignParentRight="true" custom:layout_alignParentBottom="true" />
+    <mobi.mmdt.ott.view.components.imageslider.Indicators.PagerIndicator custom:gravity="11" custom:id="0x7f0f01de" custom:paddingLeft="10dp" custom:paddingBottom="10dp" custom:layout_width="-2" custom:layout_height="-2" custom:layout_alignParentLeft="true" custom:layout_alignParentBottom="true" />
+    <mobi.mmdt.ott.view.components.imageslider.Indicators.PagerIndicator custom:gravity="11" custom:id="0x7f0f01df" custom:paddingTop="10dp" custom:layout_width="-2" custom:layout_height="-2" custom:layout_alignParentTop="true" custom:layout_centerHorizontal="true" />
+    <mobi.mmdt.ott.view.components.imageslider.Indicators.PagerIndicator custom:gravity="11" custom:id="0x7f0f01e0" custom:paddingTop="10dp" custom:paddingRight="10dp" custom:layout_width="-2" custom:layout_height="-2" custom:layout_alignParentTop="true" custom:layout_alignParentRight="true" />
+    <mobi.mmdt.ott.view.components.imageslider.Indicators.PagerIndicator custom:gravity="11" custom:id="0x7f0f01e1" custom:paddingLeft="10dp" custom:paddingTop="10dp" custom:layout_width="-2" custom:layout_height="-2" custom:layout_alignParentLeft="true" custom:layout_alignParentTop="true" />
+</RelativeLayout>

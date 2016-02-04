@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="11sp" android:textStyle="1" android:textColor="0x7f0e009b" android:id="0x7f0f0112" android:background="0x7f02005b" android:paddingLeft="0x7f0a009d" android:paddingTop="2dp" android:paddingRight="0x7f0a009d" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:text="@c1136d/unread_messages" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:textAllCaps="true" />
+    <View android:background="0x7f0e0098" android:layout_width="0x7f0a009a" android:layout_height="2dp" android:layout_toLeftOf="0x7f0f0112" android:layout_centerVertical="true" />
+    <View android:background="0x7f0e0098" android:layout_width="0x7f0a009a" android:layout_height="2dp" android:layout_toRightOf="0x7f0f0112" android:layout_centerVertical="true" />
+</RelativeLayout>

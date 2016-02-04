@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout wheel:orientation="1" wheel:paddingTop="?unknown_attr_ref: 7f01015f" wheel:layout_width="-1" wheel:layout_height="-2">
+    <LinearLayout wheel:layout_gravity="10" wheel:orientation="1" wheel:id="0x7f0f00b3" wheel:paddingLeft="128dp" wheel:paddingRight="16dp" wheel:layout_width="-1" wheel:layout_height="-2">
+        <TextView wheel:textColor="0x7f0e009b" wheel:gravity="3" wheel:id="0x7f0f01a2" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="" wheel:singleLine="true" />
+        <TextView wheel:textColor="0x7f0e009b" wheel:gravity="3" wheel:id="0x7f0f01a3" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="" wheel:singleLine="true" />
+        <TextView wheel:textColor="0x7f0e009b" wheel:gravity="3" wheel:id="0x7f0f01a4" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="" wheel:maxLines="2" />
+    </LinearLayout>
+    <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView wheel:layout_gravity="53" wheel:id="0x7f0f01e2" wheel:layout_width="96dp" wheel:layout_height="96dp" wheel:layout_margin="16dp" wheel:scaleType="3" wheel:background_color="0x106000b" />
+    <FrameLayout wheel:layout_gravity="53" wheel:layout_width="96dp" wheel:layout_height="96dp" wheel:layout_margin="16dp">
+        <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="11" wheel:id="0x7f0f01e3" wheel:layout_width="42dp" wheel:layout_height="42dp" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+    </FrameLayout>
+</FrameLayout>

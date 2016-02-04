@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <TextView android:ellipsize="1" android:id="0x7f0f017f" android:paddingLeft="0x7f0a009e" android:paddingRight="0x7f0a009e" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0x7f0a009a" android:text="0x7f08007b" android:singleLine="true" android:layout_below="0x7f0f017c" android:layout_centerVertical="true" />
+    <android.support.v7.widget.RecyclerView android:id="0x7f0f0145" android:layout_width="-1" android:layout_height="-1" android:layout_below="0x7f0f01a7" style="0x7f0b0019" />
+    <FrameLayout android:id="0x7f0f01a7" android:layout_width="-1" android:layout_height="42dp" android:layout_marginTop="16dp" android:layout_alignParentTop="true">
+        <View android:layout_gravity="50" android:background="0x7f0e004d" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" />
+        <TextView android:layout_gravity="13" android:paddingLeft="32dp" android:layout_width="-2" android:layout_height="-2" android:text="Sticker Package" />
+        <TextView android:layout_gravity="15" android:paddingRight="32dp" android:layout_width="-2" android:layout_height="-2" android:text="Visibility" />
+    </FrameLayout>
+</RelativeLayout>

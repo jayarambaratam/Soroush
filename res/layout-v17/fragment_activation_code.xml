@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="0x7f0f00a3" app:paddingLeft="0x7f0a004c" app:paddingTop="0x7f0a004c" app:paddingRight="0x7f0a004c" app:paddingBottom="0x7f0a004d" app:layout_width="-1" app:layout_height="-1">
+    <EditText app:layout_width="-1" app:layout_height="0dp" app:layout_alignParentTop="true" app:windowSoftInputMode="2" />
+    <android.support.design.widget.TextInputLayout app:id="0x7f0f013c" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="0x7f0a009d" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_alignParentStart="true" app:layout_alignParentEnd="true" app:hintTextAppearance="@c1011u/TextAppearance_AppCompat">
+        <EditText app:id="0x7f0f013d" app:layout_width="-1" app:layout_height="-2" app:hint="0x7f08004b" app:ems="10" app:inputType="2" app:windowSoftInputMode="2" />
+    </android.support.design.widget.TextInputLayout>
+    <RelativeLayout app:id="0x7f0f00b3" app:layout_width="-1" app:layout_height="-1" app:layout_above="0x7f0f013e" app:layout_below="0x7f0f013c" app:layout_centerInParent="true">
+        <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:id="0x7f0f013f" app:layout_width="200dp" app:layout_height="200dp" app:src="0x7f02040a" app:layout_centerInParent="true" app:background_color="0x7f0e003b" app:text_color="0x106000b" />
+        <at.grabner.circleprogress.CircleProgressView app:id="0x7f0f0140" app:layout_width="200dp" app:layout_height="200dp" app:layout_centerInParent="true" app:rimWidth="32dp" app:barWidth="32dp" app:contourSize="0dp" />
+        <TextView app:gravity="11" app:id="0x7f0f0141" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="0x7f0a009e" app:text="0x7f08009b" app:layout_below="0x7f0f013f" app:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.AppCompatButton app:id="0x7f0f013e" app:paddingLeft="0x7f0a009d" app:paddingRight="0x7f0a009d" app:layout_width="-2" app:layout_height="-2" app:text="0x7f08008d" app:layout_alignParentLeft="true" app:layout_alignParentBottom="true" style="@c1011u/Base_Widget_AppCompat_Button_Borderless" />
+</RelativeLayout>

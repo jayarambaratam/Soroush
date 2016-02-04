@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="0x7f0f00a3" android:background="0x7f0e009c" android:paddingLeft="0x7f0a009e" android:paddingTop="0x7f0a009e" android:paddingRight="0x7f0a009e" android:layout_width="-2" android:layout_height="-2">
+    <EditText android:enabled="false" android:layout_width="-1" android:layout_height="0dp" android:singleLine="true" android:layout_alignParentTop="true" android:imeOptions="10000000" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <android.support.design.widget.TextInputLayout android:id="0x7f0f019a" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0x7f0a009e" android:layout_marginRight="0x7f0a009d" android:layout_toLeftOf="0x7f0f019c" android:layout_alignParentLeft="true">
+                <EditText android:textColor="0x7f0e00a9" android:id="0x7f0f019b" android:paddingLeft="0x7f0a009d" android:paddingRight="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:hint="0x7f0800c0" android:singleLine="true" android:imeOptions="10000000" />
+            </android.support.design.widget.TextInputLayout>
+            <Button android:id="0x7f0f019c" android:layout_width="56dp" android:layout_height="56dp" android:text="" android:drawableRight="0x7f020400" android:layout_alignBottom="0x7f0f019a" android:layout_alignParentRight="true" style="0x7f0b017f" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <android.support.design.widget.TextInputLayout android:id="0x7f0f016a" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0x7f0a009e" android:layout_marginRight="0x7f0a009d" android:layout_toLeftOf="0x7f0f019d" android:layout_alignParentLeft="true">
+                <EditText android:textColor="0x7f0e00a9" android:id="0x7f0f016b" android:paddingLeft="0x7f0a009d" android:paddingRight="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:hint="0x7f0800c2" android:singleLine="true" android:imeOptions="10000000" />
+            </android.support.design.widget.TextInputLayout>
+            <Button android:id="0x7f0f019d" android:layout_width="56dp" android:layout_height="56dp" android:text="" android:drawableRight="0x7f020400" android:layout_alignBottom="0x7f0f016a" android:layout_alignParentRight="true" style="0x7f0b017f" />
+        </RelativeLayout>
+        <android.support.design.widget.TextInputLayout android:id="0x7f0f016c" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a009e">
+            <EditText android:enabled="false" android:textColor="0x7f0e00a9" android:id="0x7f0f016d" android:paddingLeft="0x7f0a009d" android:paddingRight="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:text="+989121234567" android:hint="@c1136d/phone_number" android:singleLine="true" android:imeOptions="10000000" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</RelativeLayout>

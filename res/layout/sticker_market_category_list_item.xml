@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout wheel:clickable="true" wheel:layout_width="-1" wheel:layout_height="0x7f0a0099" style="0x7f0b007c">
+    <ImageView wheel:layout_gravity="10" wheel:id="0x7f0f00ea" wheel:layout_width="0x7f0a005e" wheel:layout_height="0x7f0a005e" wheel:layout_marginLeft="8dp" />
+    <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="10" wheel:id="@c1119f/progress_wheel" wheel:layout_width="0x7f0a005e" wheel:layout_height="0x7f0a005e" wheel:layout_marginLeft="8dp" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+    <RelativeLayout wheel:paddingLeft="0x7f0a0098" wheel:layout_width="-1" wheel:layout_height="-1">
+        <View wheel:id="0x7f0f012f" wheel:layout_width="-1" wheel:layout_height="2dp" wheel:layout_centerVertical="true" />
+        <TextView wheel:textSize="0x7f0a0060" wheel:textColor="@c1118e/textColorPrimary" wheel:gravity="3" wheel:id="0x7f0f00eb" wheel:paddingRight="0x7f0a009e" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="New Text" wheel:singleLine="true" wheel:layout_above="0x7f0f012f" />
+        <TextView wheel:textSize="0x7f0a005f" wheel:textColor="0x7f0e0094" wheel:gravity="13" wheel:id="0x7f0f00ec" wheel:paddingRight="0x7f0a009e" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="New Text" wheel:singleLine="true" wheel:layout_below="0x7f0f012f" />
+    </RelativeLayout>
+    <View wheel:layout_gravity="30" wheel:id="0x7f0f00ee" wheel:background="0x7f0e004d" wheel:layout_width="-1" wheel:layout_height="1px" wheel:layout_marginLeft="0x7f0a0098" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout emojicon:gravity="10" emojicon:orientation="0" emojicon:layout_width="-1" emojicon:layout_height="-2">
+    <LinearLayout emojicon:gravity="10" emojicon:orientation="0" emojicon:paddingTop="0x7f0a009d" emojicon:paddingBottom="0x7f0a009d" emojicon:layout_width="-1" emojicon:layout_height="-2" emojicon:layout_marginRight="48dp">
+        <ImageView emojicon:id="0x7f0f01d6" emojicon:padding="0x7f0a009d" emojicon:layout_width="40dp" emojicon:layout_height="40dp" emojicon:layout_marginLeft="0x7f0a009c" emojicon:src="0x7f020431" />
+        <ImageView emojicon:id="0x7f0f0106" emojicon:background="0x7f0e0051" emojicon:layout_width="40dp" emojicon:layout_height="40dp" emojicon:layout_marginLeft="0x7f0a009c" />
+        <LinearLayout emojicon:gravity="10" emojicon:orientation="1" emojicon:id="0x7f0f01d7" emojicon:paddingLeft="0x7f0a009d" emojicon:paddingRight="0x7f0a009d" emojicon:layout_width="-1" emojicon:layout_height="-1" emojicon:layout_toRightOf="0x7f0f0106">
+            <TextView emojicon:textSize="14sp" emojicon:textStyle="1" emojicon:textColor="0x7f0e0094" emojicon:id="0x7f0f0107" emojicon:layout_width="-2" emojicon:layout_height="-2" emojicon:text="Text" emojicon:singleLine="true" />
+            <mobi.mmdt.ott.view.conversation.emojisticker.emoji.emojicon.EmojiconTextView emojicon:textSize="12sp" emojicon:textColor="0x7f0e0094" emojicon:id="0x7f0f0108" emojicon:layout_width="-2" emojicon:layout_height="-2" emojicon:text="Text" emojicon:singleLine="true" emojicon:emojiconSize="0x7f0a0087" emojicon:emojiconAlignment="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton emojicon:layout_gravity="5" emojicon:id="0x7f0f01d8" emojicon:padding="0x7f0a009d" emojicon:clickable="true" emojicon:layout_width="48dp" emojicon:layout_height="-1" emojicon:src="0x7f0203d9" emojicon:onClick="onCloseReplyLayoutPressed" style="0x7f0b00d6" />
+</FrameLayout>

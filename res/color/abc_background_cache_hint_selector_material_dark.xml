@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:color="@c1118e/background_material_dark" />
+</selector>

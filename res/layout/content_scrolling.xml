@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView wheel:layout_width="-1" wheel:layout_height="-1" wheel:layout_behavior="@c0045i/appbar_scrolling_view_behavior">
+    <RelativeLayout wheel:layout_width="-1" wheel:layout_height="-2">
+        <FrameLayout wheel:id="0x7f0f0115" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginTop="32dp" wheel:layout_alignParentTop="true">
+            <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="11" wheel:id="0x7f0f0116" wheel:padding="4dp" wheel:layout_width="56dp" wheel:layout_height="56dp" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+            <ImageView wheel:id="0x7f0f0117" wheel:layout_width="-1" wheel:layout_height="-2" />
+        </FrameLayout>
+        <LinearLayout wheel:orientation="1" wheel:id="0x7f0f0118" wheel:visibility="2" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginLeft="16dp" wheel:layout_marginTop="16dp" wheel:layout_marginRight="16dp" wheel:layout_below="0x7f0f0115">
+            <TextView wheel:textSize="12sp" wheel:textColor="@c1118e/textColorPrimary" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="Designed by:" />
+            <TextView wheel:textSize="12sp" wheel:textColor="@c1118e/textColorPrimary" wheel:id="0x7f0f0119" wheel:layout_width="-1" wheel:layout_height="-2" wheel:text="" />
+            <View wheel:id="0x7f0f011a" wheel:layout_width="-1" wheel:layout_height="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

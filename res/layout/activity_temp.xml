@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:id="0x7f0f00e0" app:layout_width="-1" app:layout_height="-1">
+    <net.frakbot.glowpadbackport.GlowPadView app:gravity="30" app:id="0x7f0f00e1" app:background="0x106000c" app:visibility="0" app:layout_width="-1" app:layout_height="-1" app:layout_marginTop="-10dp" app:layout_marginBottom="-46dp" app:targetDrawables="0x7f0d0002" app:handleDrawable="0x7f020407" app:outerRingDrawable="0x7f020418" app:pointDrawable="0x7f020416" app:innerRadius="0x7f0a008d" app:outerRadius="0x7f0a008f" app:glowRadius="0x7f0a008c" app:vibrationDuration="20" app:snapMargin="0x7f0a008e" app:feedbackCount="1" />
+</FrameLayout>

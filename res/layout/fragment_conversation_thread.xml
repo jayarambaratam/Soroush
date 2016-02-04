@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout wheel:layout_width="-1" wheel:layout_height="-1">
+    <android.support.v7.widget.RecyclerView wheel:id="0x7f0f0145" wheel:paddingTop="0dp" wheel:layout_width="-1" wheel:layout_height="-1" style="0x7f0b0019" />
+    <TextView wheel:textSize="0x7f0a0088" wheel:layout_gravity="31" wheel:id="0x7f0f00f5" wheel:background="0x7f020053" wheel:paddingLeft="0x7f0a009d" wheel:paddingTop="2dp" wheel:paddingRight="0x7f0a009d" wheel:paddingBottom="2dp" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_marginTop="0x7f0a009c" wheel:text="New Text" />
+    <android.support.design.widget.FloatingActionButton wheel:layout_gravity="55" wheel:id="0x7f0f0172" wheel:visibility="2" wheel:clickable="true" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_marginRight="0x7f0a009e" wheel:layout_marginBottom="0x7f0a009e" wheel:src="0x7f0203d1" wheel:elevation="0dp" wheel:rippleColor="0x7f0e0037" wheel:backgroundTint="0x7f0e0036" />
+    <include wheel:id="0x7f0f0173" wheel:layout_width="-1" wheel:layout_height="40dp" wheel:layout_marginLeft="0x7f0a009d" wheel:layout_marginTop="0x7f0a009d" wheel:layout_marginRight="0x7f0a009d" layout="0x7f040051" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:id="0x7f0f009f" app:background="0x106000c" app:layout_width="-1" app:layout_height="-1">
+    <FrameLayout app:id="0x7f0f00a5" app:layout_width="-1" app:layout_height="-1" app:layout_marginBottom="0x7f0a009d" app:layout_above="0x7f0f00d3">
+        <android.support.v4.view.ViewPager app:id="0x7f0f00c8" app:layout_width="-1" app:layout_height="-1" />
+    </FrameLayout>
+    <View app:background="@c1118e/transparent" app:layout_width="-1" app:layout_height="1px" app:layout_above="0x7f0f00d3" />
+    <FrameLayout app:id="0x7f0f00d3" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true"
+        <FrameLayout app:layout_gravity="50" app:id="0x7f0f00d4" app:layout_width="-1" app:layout_height="-2" /> />
+    <android.support.v7.widget.Toolbar app:theme="0x7f0b012a" app:id="0x7f0f00a1" app:background="0x7f0e0032" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:layout_alignParentTop="true" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" />
+</RelativeLayout>

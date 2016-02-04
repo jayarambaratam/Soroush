@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout wheel:paddingLeft="0x7f0a009d" wheel:paddingTop="0x7f0a009c" wheel:paddingRight="0x7f0a009d" wheel:paddingBottom="0x7f0a009c" wheel:clickable="true" wheel:layout_width="-1" wheel:layout_height="-1">
+    <include wheel:id="0x7f0f00f0" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginBottom="0x7f0a009d" wheel:layout_alignParentTop="true" layout="0x7f040042" />
+    <include wheel:id="0x7f0f00f1" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginBottom="0x7f0a009d" wheel:layout_below="0x7f0f00f0" layout="0x7f04005f" />
+    <View wheel:background="0x7f0e000d" wheel:layout_width="0x7f0a0061" wheel:layout_height="0x7f0a0062" wheel:layout_marginLeft="0x7f0a0062" wheel:layout_below="0x7f0f00f1" wheel:layout_alignParentLeft="true" />
+    <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView wheel:id="0x7f0f00f6" wheel:layout_width="0x7f0a0061" wheel:layout_height="0x7f0a0061" wheel:layout_below="0x7f0f00f1" wheel:layout_alignParentLeft="true" wheel:background_color="0x106000b" wheel:text_color="0x106000b" />
+    <RelativeLayout wheel:id="0x7f0f00f7" wheel:background="0x7f020051" wheel:padding="0x7f0a009c" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_toRightOf="0x7f0f00f6" wheel:layout_below="0x7f0f00f1">
+        <TextView wheel:textSize="0x7f0a00b2" wheel:textStyle="1" wheel:gravity="3" wheel:id="0x7f0f00f8" wheel:paddingLeft="0x7f0a009c" wheel:paddingRight="0x7f0a009d" wheel:paddingBottom="0x7f0a009c" wheel:layout_width="-2" wheel:layout_height="-2" wheel:text="Sender Name" wheel:singleLine="true" wheel:layout_alignRight="0x7f0f0102" wheel:layout_alignParentLeft="true" wheel:layout_alignParentTop="true" />
+        <ViewStub wheel:id="0x7f0f00f9" wheel:layout="0x7f040050" wheel:inflatedId="0x7f0f00f9" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_below="0x7f0f00f8" wheel:layout_alignRight="0x7f0f0102" />
+        <TextView wheel:id="0x7f0f0103" wheel:paddingLeft="0x7f0a009c" wheel:paddingTop="0x7f0a009c" wheel:paddingRight="0x7f0a009c" wheel:layout_width="-2" wheel:layout_height="-2" wheel:text="0x7f080060" wheel:layout_below="0x7f0f0102" wheel:layout_alignLeft="0x7f0f0102" wheel:layout_alignRight="0x7f0f0102" />
+        <RelativeLayout wheel:paddingLeft="0x7f0a009c" wheel:paddingTop="0x7f0a009c" wheel:paddingRight="0x7f0a009c" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_below="0x7f0f0103" wheel:layout_alignRight="0x7f0f0103">
+            <ImageView wheel:id="0x7f0f00fe" wheel:visibility="2" wheel:layout_width="0x7f0a009e" wheel:layout_height="0x7f0a009e" wheel:layout_marginLeft="0x7f0a009c" wheel:src="0x7f020420" wheel:layout_toRightOf="0x7f0f00f4" wheel:layout_alignBottom="0x7f0f00f4" />
+            <TextView wheel:textSize="0x7f0a005c" wheel:textColor="0x7f0e0035" wheel:id="0x7f0f00f4" wheel:layout_width="-2" wheel:layout_height="-2" wheel:text="New Text" />
+        </RelativeLayout>
+        <FrameLayout wheel:id="0x7f0f0102" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_below="0x7f0f00f9">
+            <ImageView wheel:id="0x7f0f0104" wheel:layout_width="-2" wheel:layout_height="-2" />
+            <ImageButton wheel:layout_gravity="11" wheel:id="0x7f0f00fb" wheel:background="0x7f020050" wheel:layout_width="56dp" wheel:layout_height="56dp" wheel:src="0x7f0203f8" wheel:scaleType="3" />
+            <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="11" wheel:id="@c1119f/progress_wheel" wheel:layout_width="56dp" wheel:layout_height="56dp" wheel:layout_alignParentLeft="true" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+        </FrameLayout>
+        <ImageView wheel:layout_width="-2" wheel:layout_height="-2" wheel:src="0x7f020404" wheel:layout_alignTop="0x7f0f0102" wheel:layout_alignRight="0x7f0f0102" />
+        <ImageView wheel:layout_width="-2" wheel:layout_height="-2" wheel:src="0x7f020403" wheel:layout_alignLeft="0x7f0f0102" wheel:layout_alignBottom="0x7f0f0102" />
+    </RelativeLayout>
+    <RelativeLayout wheel:id="0x7f0f00ff" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_toRightOf="0x7f0f00f7" wheel:layout_alignTop="0x7f0f00f7" wheel:layout_alignBottom="0x7f0f00f7" wheel:layout_alignParentRight="true">
+        <ImageView wheel:id="0x7f0f0100" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_marginLeft="0x7f0a009c" wheel:src="0x7f02041c" wheel:layout_alignParentLeft="true" wheel:layout_centerVertical="true" />
+        <TextView wheel:textSize="10sp" wheel:textColor="0x7f0e0094" wheel:gravity="1" wheel:id="0x7f0f0101" wheel:layout_width="-2" wheel:layout_height="-2" wheel:text="10k" wheel:layout_below="0x7f0f0100" wheel:layout_alignLeft="0x7f0f0100" wheel:layout_alignRight="0x7f0f0100" />
+    </RelativeLayout>
+</RelativeLayout>

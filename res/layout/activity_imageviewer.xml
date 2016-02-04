@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout wheel:id="0x7f0f00a3" wheel:background="0x7f0e0010" wheel:fitsSystemWindows="true" wheel:layout_width="-1" wheel:layout_height="-1">
+    <ImageView wheel:id="0x7f0f00c6" wheel:fitsSystemWindows="true" wheel:layout_width="-1" wheel:layout_height="-1" />
+    <com.pnikosis.materialishprogress.ProgressWheel wheel:layout_gravity="11" wheel:id="@c1119f/progress_wheel" wheel:layout_width="56dp" wheel:layout_height="56dp" wheel:layout_centerInParent="true" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+    <android.support.v7.widget.Toolbar wheel:theme="0x7f0b012a" wheel:id="0x7f0f00a1" wheel:background="0x7f0e0032" wheel:layout_width="-1" wheel:layout_height="?unknown_attr_ref: 7f01015f" wheel:layout_alignParentTop="true" wheel:popupTheme="@c1011u/ThemeOverlay_AppCompat_Dark" wheel:layout_scrollFlags="5" wheel:subtitleTextColor="0x7f0e009b" />
+</android.support.design.widget.CoordinatorLayout>

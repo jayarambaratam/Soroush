@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="0x7f0f017c" android:clickable="true" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f01015f" style="0x7f0b007c">
+        <TextView android:ellipsize="1" android:id="0x7f0f017d" android:paddingLeft="0x7f0a009e" android:paddingRight="0x7f0a009e" android:layout_width="-2" android:layout_height="-2" android:text="0x7f08005a" android:singleLine="true" android:layout_toRightOf="0x7f0f017e" android:layout_centerVertical="true" />
+        <ImageView android:id="0x7f0f017e" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0x7f0a009e" android:src="0x7f020425" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <View android:id="0x7f0f00ee" android:background="0x7f0e004d" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:ellipsize="1" android:id="0x7f0f017f" android:paddingLeft="0x7f0a009e" android:paddingRight="0x7f0a009e" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="0x7f0a009a" android:text="0x7f08007b" android:singleLine="true" android:layout_below="0x7f0f017c" android:layout_centerVertical="true" />
+    <android.support.v7.widget.RecyclerView android:id="0x7f0f0145" android:layout_width="-1" android:layout_height="-1" android:layout_below="0x7f0f017c" style="0x7f0b0019" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout custom:orientation="1" custom:id="0x7f0f009f" custom:layout_width="-1" custom:layout_height="-1">
+    <android.support.v7.widget.Toolbar custom:id="0x7f0f00a1" custom:background="?unknown_attr_ref: 7f01019b" custom:layout_width="-1" custom:layout_height="?unknown_attr_ref: 7f01015f" custom:layout_alignParentTop="true" custom:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" custom:layout_scrollFlags="5" custom:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" />
+    <FrameLayout custom:layout_width="-1" custom:layout_height="-1" custom:layout_below="0x7f0f00a1">
+        <com.isseiaoki.simplecropview.CropImageView custom:id="0x7f0f00dc" custom:paddingLeft="8dp" custom:paddingTop="8dp" custom:paddingRight="8dp" custom:paddingBottom="8dp" custom:layout_width="-1" custom:layout_height="-1" custom:cropMode="0" custom:backgroundColor="0x7f0e000f" custom:overlayColor="0x7f0e0078" custom:frameColor="0x7f0e0058" custom:handleColor="0x7f0e005a" custom:guideColor="0x7f0e0059" custom:guideShowMode="2" custom:handleShowMode="1" custom:handleSize="8dp" custom:touchPadding="8dp" custom:minFrameSize="50dp" custom:frameStrokeWeight="1dp" custom:guideStrokeWeight="1dp" custom:initialFrameScale="1.0" />
+    </FrameLayout>
+</RelativeLayout>

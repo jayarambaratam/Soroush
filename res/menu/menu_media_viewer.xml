@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="0x7f0203c5" app:id="0x7f0f0212" app:orderInCategory="1" app:title="0x7f08003f" app:showAsAction="1" />
+    <item app:icon="0x7f0203c1" app:id="0x7f0f01f8" app:orderInCategory="1" app:title="0x7f08002f" app:showAsAction="1" />
+    <item app:icon="@c0363f/abc_ic_menu_share_mtrl_alpha" app:id="0x7f0f01f9" app:orderInCategory="1" app:title="0x7f080041" app:showAsAction="1" />
+</menu>

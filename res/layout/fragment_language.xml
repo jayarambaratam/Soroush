@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f0f018a" android:background="0x7f0e005f" android:paddingTop="48dp" android:clipChildren="false" android:layout_width="-1" android:layout_height="-1" android:layout_weight="6.0">
+    <FrameLayout android:id="0x7f0f018e" android:clipChildren="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="4.0">
+        <ImageView android:layout_gravity="51" android:id="0x7f0f018b" android:padding="64dp" android:layout_width="-1" android:layout_height="-1" android:src="0x7f02044c" android:scaleType="3" />
+    </FrameLayout>
+    <TextView android:textAppearance="0x7f0b00d4" android:gravity="50" android:id="0x7f0f018c" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="-1" android:layout_height="0dp" android:text="0x7f08008e" android:layout_weight="0.7" />
+    <RadioGroup android:id="0x7f0f018d" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="0x7f0a009e" android:layout_weight="1.3">
+        <android.support.v7.widget.AppCompatRadioButton android:textAppearance="0x7f0b00d4" android:textColor="0x7f0e009b" android:gravity="13" android:id="0x7f0f018f" android:layout_width="-1" android:layout_height="-2" android:checked="true" android:minHeight="36dp" android:text="0x7f080076" />
+        <android.support.v7.widget.AppCompatRadioButton android:textAppearance="0x7f0b00d4" android:textColor="0x7f0e009b" android:gravity="13" android:id="0x7f0f0190" android:layout_width="-1" android:layout_height="-2" android:minHeight="36dp" android:text="0x7f08007a" />
+    </RadioGroup>
+    <View android:background="0x106000d" android:layout_width="-1" android:layout_height="48dp" />
+</LinearLayout>

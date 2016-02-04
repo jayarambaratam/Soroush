@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:clickable="true" app:layout_width="-1" app:layout_height="-2" style="0x7f0b007c">
+    <RelativeLayout app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="0x7f0a009e" app:layout_marginBottom="0x7f0a009e">
+        <TextView app:textSize="0x7f0a0060" app:textColor="@c1118e/textColorPrimary" app:id="0x7f0f00eb" app:paddingLeft="0x7f0a009a" app:paddingRight="0x7f0a009d" app:layout_width="-2" app:layout_height="-2" app:text="New Text" app:singleLine="true" app:layout_toLeftOf="0x7f0f00ed" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+        <TextView app:textSize="0x7f0a0060" app:textStyle="1" app:textColor="0x7f0e002b" app:id="0x7f0f00ed" app:paddingRight="0x7f0a009a" app:layout_width="-2" app:layout_height="-2" app:text="New Text" app:singleLine="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" />
+        <TextView app:textSize="0x7f0a005f" app:textColor="0x7f0e0094" app:id="0x7f0f00ec" app:paddingLeft="0x7f0a009a" app:paddingRight="0x7f0a009a" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="0x7f0a009d" app:text="New Text" app:layout_below="0x7f0f00eb" />
+    </RelativeLayout>
+    <View app:layout_gravity="30" app:id="0x7f0f00ee" app:background="0x7f0e004d" app:layout_width="-1" app:layout_height="1px" app:layout_marginLeft="0x7f0a009e" app:layout_marginRight="0x7f0a009e" />
+</FrameLayout>

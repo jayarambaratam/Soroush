@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:id="0x7f0f00a3" android:background="0x7f0e009b" android:layout_width="-2" android:layout_height="-2">
+    <FrameLayout android:id="0x7f0f0162" android:background="0x106000b" android:paddingTop="0x7f0a009e" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="13" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="0x7f0a009e" android:src="0x7f0203c4" />
+        <TextView android:textSize="16sp" android:textStyle="1" android:textColor="0x7f0e0094" android:gravity="10" android:layout_gravity="50" android:id="0x7f0f0163" android:paddingLeft="56dp" android:paddingTop="0x7f0a009e" android:paddingRight="56dp" android:paddingBottom="0x7f0a009e" android:layout_width="-1" android:layout_height="-2" android:text="Shared Media" android:singleLine="true" style="0x7f0b007c" />
+    </FrameLayout>
+    <EditText android:enabled="false" android:id="0x7f0f0164" android:layout_width="-1" android:layout_height="0dp" android:singleLine="true" android:layout_alignParentTop="true" android:imeOptions="10000000" />
+    <View android:id="0x7f0f0165" android:background="0x7f0e009d" android:layout_width="-1" android:layout_height="0x7f0a009d" android:layout_below="0x7f0f0162" />
+    <LinearLayout android:orientation="1" android:background="0x7f0e009b" android:paddingLeft="0x7f0a009e" android:paddingRight="0x7f0a009e" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="0x7f0a009d" android:layout_below="0x7f0f0165">
+        <android.support.design.widget.TextInputLayout android:id="0x7f0f0166" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a009e">
+            <EditText android:textSize="0x7f0a005d" android:textColor="0x7f0e00a9" android:id="0x7f0f0167" android:paddingLeft="0x7f0a009d" android:paddingTop="0x7f0a009d" android:paddingRight="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:hint="0x7f080061" android:singleLine="true" android:imeOptions="10000000" />
+        </android.support.design.widget.TextInputLayout>
+        <Button android:id="0x7f0f0168" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a009e" android:text="0x7f080033" style="0x7f0b00d7" />
+        <View android:layout_width="-1" android:layout_height="0x7f0a009e" />
+    </LinearLayout>
+</RelativeLayout>

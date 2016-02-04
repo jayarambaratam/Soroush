@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout emojicon:background="0x7f0e009b" emojicon:layout_width="-1" emojicon:layout_height="-2"
+    <FrameLayout emojicon:id="0x7f0f0146" emojicon:paddingRight="48dp" emojicon:layout_width="-1" emojicon:layout_height="-2" emojicon:minHeight="48dp">
+        <mobi.mmdt.ott.view.conversation.emojisticker.emoji.emojicon.EmojiconEditText emojicon:textSize="0x7f0a0059" emojicon:gravity="10" emojicon:id="0x7f0f0147" emojicon:background="@c1118e/transparent" emojicon:paddingLeft="52dp" emojicon:paddingTop="0x7f0a009d" emojicon:paddingRight="52dp" emojicon:paddingBottom="0x7f0a009d" emojicon:scrollbars="200" emojicon:layout_width="-1" emojicon:layout_height="-2" emojicon:minHeight="48dp" emojicon:hint="0x7f0800ec" emojicon:maxLines="5" emojicon:inputType="20001" emojicon:imeOptions="2000000" emojicon:emojiconSize="0x7f0a0085" emojicon:emojiconAlignment="1" />
+        <ImageView emojicon:layout_gravity="53" emojicon:id="0x7f0f0157" emojicon:padding="8dp" emojicon:clickable="true" emojicon:layout_width="48dp" emojicon:layout_height="48dp" emojicon:src="0x7f0203fd" emojicon:scaleType="3" style="0x7f0b00d6" />
+        <ImageView emojicon:layout_gravity="55" emojicon:id="0x7f0f016e" emojicon:padding="8dp" emojicon:clickable="true" emojicon:layout_width="48dp" emojicon:layout_height="48dp" emojicon:src="0x7f02043b" emojicon:scaleType="3" style="0x7f0b00d6" />
+    </FrameLayout>
+    <FrameLayout emojicon:layout_gravity="10" emojicon:id="0x7f0f016f" emojicon:background="0x7f0e009b" emojicon:layout_width="-1" emojicon:layout_height="48dp">
+        <TextView emojicon:gravity="10" emojicon:layout_gravity="15" emojicon:id="0x7f0f0170" emojicon:paddingRight="98dp" emojicon:layout_width="-2" emojicon:layout_height="-2" emojicon:text="0x7f0800dd" emojicon:singleLine="true" emojicon:drawableLeft="0x7f02042c" />
+        <TextView emojicon:textStyle="1" emojicon:gravity="10" emojicon:layout_gravity="13" emojicon:id="0x7f0f0171" emojicon:paddingLeft="0x7f0a009d" emojicon:paddingRight="0x7f0a009d" emojicon:layout_width="-2" emojicon:layout_height="-2" emojicon:text="00:00" emojicon:drawableLeft="0x7f02042f" />
+    </FrameLayout>
+    <ImageView emojicon:layout_gravity="55" emojicon:id="0x7f0f014b" emojicon:padding="8dp" emojicon:clickable="true" emojicon:layout_width="48dp" emojicon:layout_height="48dp" emojicon:src="0x7f0203c8" emojicon:scaleType="3" style="0x7f0b00d6" />
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="0x7f0f00a3" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textStyle="1" android:textColor="0x7f0e009b" android:layout_gravity="31" android:id="0x7f0f01b4" android:background="0x7f0e002e" android:paddingLeft="0x7f0a009e" android:paddingTop="0x7f0a009c" android:paddingRight="0x7f0a009e" android:paddingBottom="0x7f0a009c" android:layout_width="-1" android:layout_height="-2" android:text="New Text" />
+</FrameLayout>

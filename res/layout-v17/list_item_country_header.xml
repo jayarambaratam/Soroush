@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-2" app:layout_height="0x7f0a0099" app:slm_isHeader="true" app:slm_headerDisplay="10" app:slm_section_headerMarginStart="56dp">
+    <TextView app:textSize="24sp" app:textColor="0x7f0e0094" app:gravity="800003" app:id="0x7f0f01b6" app:paddingLeft="24dp" app:paddingTop="16dp" app:paddingRight="16dp" app:paddingBottom="16dp" app:layout_width="-2" app:layout_height="-2" app:layout_centerVertical="true" app:textDirection="5" app:layoutDirection="3" />
+    <TextView app:id="@c1119f/text2" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+</RelativeLayout>

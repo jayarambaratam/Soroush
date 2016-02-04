@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout fab:id="0x7f0f00bb" fab:layout_width="-1" fab:layout_height="-1">
+    <RelativeLayout app:orientation="1" app:id="0x7f0f00ce" app:layout_width="-1" app:layout_height="-1">
+        <android.support.v7.widget.Toolbar app:id="0x7f0f00a1" app:background="?unknown_attr_ref: 7f01019b" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:layout_alignParentTop="true" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" />
+        <android.support.v4.widget.DrawerLayout app:id="0x7f0f00cf" app:layout_width="-1" app:layout_height="-1" app:layout_below="0x7f0f00a1">
+            <mobi.mmdt.ott.view.main.basenavigation.viewpager.HorizontalSwipeControlViewPager app:id="0x7f0f00c8" app:layout_width="-1" app:layout_height="-1" />
+            <android.support.design.widget.NavigationView app:layout_gravity="800003" app:id="0x7f0f00d0" app:fitsSystemWindows="true" app:layout_width="-2" app:layout_height="-1" app:menu="0x7f100004" />
+        </android.support.v4.widget.DrawerLayout>
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="800055" android:id="0x7f0f00d1" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_margin="16sp" android:src="@c0363f/abc_btn_rating_star_on_mtrl_alpha" android:alpha="0.0" android:elevation="2dp" android:rippleColor="0x7f0e0031" />
+</android.support.design.widget.CoordinatorLayout>

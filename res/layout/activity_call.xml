@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+    <android.support.v7.widget.Toolbar app:id="0x7f0f00a1" app:background="?unknown_attr_ref: 7f01019b" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" />
+    <FrameLayout app:id="0x7f0f00a5" app:layout_width="-1" app:layout_height="-1" />
+    <FrameLayout app:layout_gravity="50" app:id="0x7f0f00a6" app:padding="0x7f0a009d" app:layout_width="-1" app:layout_height="-2">
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2"
+            <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+                <FrameLayout app:visibility="2" app:layout_width="0dp" app:layout_height="48dp" app:layout_weight="1.0">
+                    <com.dd.morphingbutton.MorphingButton app:textSize="14sp" app:textColor="0x7f0e009b" app:layout_gravity="11" app:id="0x7f0f00a7" app:layout_width="-1" app:layout_height="-1" app:layout_margin="0x7f0a009c" app:text="0x7f080043" app:textAllCaps="true" />
+                </FrameLayout>
+                <View app:layout_width="0dp" app:layout_height="48dp" app:layout_weight="0.5" />
+                <FrameLayout app:layout_width="0dp" app:layout_height="48dp" app:layout_weight="1.0">
+                    <com.dd.morphingbutton.MorphingButton app:textSize="14sp" app:textColor="0x7f0e009b" app:layout_gravity="11" app:id="0x7f0f00a8" app:layout_width="-1" app:layout_height="-1" app:layout_margin="0x7f0a009c" app:text="0x7f080036" app:textAllCaps="true" />
+                </FrameLayout>
+                <FrameLayout app:layout_width="0dp" app:layout_height="48dp" app:layout_weight="1.0">
+                    <com.dd.morphingbutton.MorphingButton app:textSize="14sp" app:textColor="0x7f0e009b" app:layout_gravity="11" app:id="0x7f0f00a9" app:layout_width="-1" app:layout_height="-1" app:layout_margin="0x7f0a009c" app:text="0x7f080032" app:textAllCaps="true" />
+                </FrameLayout>
+                <View app:layout_width="0dp" app:layout_height="48dp" app:layout_weight="0.5" />
+            </LinearLayout>
+            <Button app:textSize="14sp" app:textStyle="1" app:id="0x7f0f00aa" app:layout_width="-1" app:layout_height="56dp" app:text="0x7f08002d" app:onClick="onEndCallPressed" style="0x7f0b00d7" />
+        </LinearLayout>
+    </FrameLayout>
+    <net.frakbot.glowpadbackport.GlowPadView app:gravity="11" app:layout_gravity="50" app:id="0x7f0f00ab" app:background="#00000000" app:visibility="0" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="0dp" app:layout_marginBottom="-32dp" app:targetDrawables="0x7f0d0002" app:handleDrawable="0x7f020407" app:outerRingDrawable="0x7f020418" app:pointDrawable="0x7f020416" app:innerRadius="0x7f0a008d" app:outerRadius="0x7f0a008f" app:glowRadius="0x7f0a008c" app:vibrationDuration="20" app:snapMargin="0x7f0a008e" app:feedbackCount="1" />
+    <TextView app:textSize="14sp" app:textStyle="1" app:textColor="0x7f0e009b" app:layout_gravity="35" app:id="0x7f0f00ac" app:padding="0x7f0a009e" app:layout_width="-2" app:layout_height="-2" app:text="" style="0x7f0b0181" />
+    <ImageView app:id="0x7f0f00ad" app:visibility="2" app:layout_width="-1" app:layout_height="-1" app:src="0x7f0e0010" app:onClick="onDoNothing" />
+</FrameLayout>

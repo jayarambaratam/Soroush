@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape android:shape="1">
+            <solid android:color="#99cc00" />
+            <size android:height="0x7f0a0095" android:width="0x7f0a0095" />
+        </shape>
+    </item>
+    <item android:drawable="0x7f02040d" android:left="0x7f0a0094" android:top="0x7f0a0094" android:right="0x7f0a0094" android:bottom="0x7f0a0094" />
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:background="0x7f0e002e" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+    <android.support.v7.widget.Toolbar app:id="0x7f0f00a1" app:background="?unknown_attr_ref: 7f01019b" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f01015f" app:popupTheme="@c1011u/ThemeOverlay_AppCompat_Light" app:layout_scrollFlags="5" app:theme="@c1011u/ThemeOverlay_AppCompat_Dark_ActionBar" />
+    <FrameLayout app:id="0x7f0f00a5" app:layout_width="-1" app:layout_height="-1">
+        <TextView app:textSize="18sp" app:textStyle="1" app:textColor="0x7f0e009b" app:gravity="11" app:id="0x7f0f00ae" app:paddingLeft="0x7f0a009e" app:paddingTop="0x7f0a009e" app:paddingRight="0x7f0a009e" app:paddingBottom="0x7f0a009b" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="0x7f0a009e" app:text="" app:singleLine="true" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+    </FrameLayout>
+    <TextView app:textSize="14sp" app:textStyle="1" app:textColor="0x7f0e009b" app:layout_gravity="35" app:id="0x7f0f00ac" app:padding="0x7f0a009e" app:layout_width="-2" app:layout_height="-2" app:text="" />
+</FrameLayout>

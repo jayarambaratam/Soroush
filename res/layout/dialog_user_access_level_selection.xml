@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="0x7f0a009e" android:paddingTop="0x7f0a009e" android:paddingRight="0x7f0a009e" android:layout_width="-1" android:layout_height="-1">
+    <RadioGroup android:id="0x7f0f0123" android:layout_width="-1" android:layout_height="-2">
+        <RadioButton android:textColor="@c1118e/textColorPrimary" android:gravity="13" android:id="0x7f0f0124" android:paddingLeft="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0x7f0a009c" android:checked="true" android:text="New RadioButton" />
+        <RadioButton android:textColor="@c1118e/textColorPrimary" android:gravity="13" android:id="0x7f0f0125" android:paddingLeft="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0x7f0a009d" android:text="New RadioButton" />
+    </RadioGroup>
+</LinearLayout>

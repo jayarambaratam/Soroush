@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="0x7f0203c2" app:id="0x7f0f020f" app:visible="false" app:orderInCategory="1" app:title="0x7f08002b" app:showAsAction="1" />
+    <item app:icon="0x7f0203e7" app:id="0x7f0f0211" app:orderInCategory="1" app:title="0x7f08002c" app:showAsAction="1" />
+    <item app:id="0x7f0f01ed" app:visible="false" app:orderInCategory="100" app:title="0x7f080034" app:showAsAction="0" />
+    <item app:id="0x7f0f01ea" app:orderInCategory="100" app:title="0x7f080033" app:showAsAction="0" />
+    <item app:id="0x7f0f0210" app:orderInCategory="100" app:title="0x7f08001b" app:showAsAction="0" />
+</menu>

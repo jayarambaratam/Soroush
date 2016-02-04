@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:gravity="5" app:orientation="0" app:id="0x7f0f00fa" app:tag="front" app:paddingLeft="10dp" app:layout_width="-1" app:layout_height="-2">
+    <LinearLayout app:gravity="5" app:orientation="1" app:id="0x7f0f00b3" app:layout_width="-1" app:layout_height="-2" app:layout_toRightOf="0x7f0f01a1" app:layout_centerVertical="true">
+        <TextView app:textColor="@c1118e/textColorPrimary" app:id="0x7f0f01a2" app:background="@c1118e/transparent" app:paddingLeft="10dp" app:paddingRight="25dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="3dp" app:text="aaa " app:singleLine="true" />
+        <TextView app:textColor="@c1118e/textColorPrimary" app:id="0x7f0f01a3" app:background="@c1118e/transparent" app:paddingLeft="10dp" app:paddingRight="25dp" app:layout_width="-1" app:layout_height="-2" app:text="bbb" app:singleLine="true" />
+        <TextView app:textColor="@c1118e/textColorPrimary" app:id="0x7f0f01a4" app:background="@c1118e/transparent" app:paddingLeft="10dp" app:paddingRight="25dp" app:layout_width="-1" app:layout_height="-2" app:text="ccc" app:singleLine="true" />
+    </LinearLayout>
+    <ImageView app:orientation="0" app:id="0x7f0f01a1" app:padding="3dp" app:visibility="0" app:layout_width="?unknown_attr_ref: 1010386" app:layout_height="?unknown_attr_ref: 1010386" app:scaleType="6" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+    <RelativeLayout app:layout_width="-2" app:layout_height="-2" app:layout_alignLeft="0x7f0f01a1" app:layout_alignTop="0x7f0f01a1" app:layout_alignRight="0x7f0f01a1" app:layout_alignBottom="0x7f0f01a1">
+        <ProgressBar app:id="0x7f0f01e9" app:padding="5dp" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

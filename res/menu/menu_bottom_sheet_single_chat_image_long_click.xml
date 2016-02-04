@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="0x7f0f01f7" app:orderInCategory="1" app:title="0x7f08003e" app:showAsAction="1" />
+    <item app:id="0x7f0f01f8" app:orderInCategory="1" app:title="0x7f08002f" app:showAsAction="1" />
+    <item app:id="0x7f0f01f9" app:orderInCategory="1" app:title="0x7f080041" app:showAsAction="1" />
+    <item app:id="0x7f0f0204" app:orderInCategory="1" app:title="0x7f080028" app:showAsAction="1" />
+</menu>

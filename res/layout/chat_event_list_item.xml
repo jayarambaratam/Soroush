@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:paddingLeft="0x7f0a009d" android:paddingTop="0x7f0a009c" android:paddingRight="0x7f0a009d" android:paddingBottom="0x7f0a009c" android:clickable="true" android:layout_width="-1" android:layout_height="-1">
+    <include android:id="0x7f0f00f0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0x7f0a009d" android:layout_alignParentTop="true" layout="0x7f040042" />
+    <include android:id="0x7f0f00f1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="0x7f0a009d" android:layout_below="0x7f0f00f0" layout="0x7f04005f" />
+    <LinearLayout android:gravity="5" android:layout_gravity="1" android:orientation="1" android:background="0x7f02004e" android:paddingLeft="0x7f0a009d" android:paddingTop="2dp" android:paddingRight="0x7f0a009d" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:layout_below="0x7f0f00f1" android:layout_centerHorizontal="true">
+        <TextView android:textSize="0x7f0a0088" android:id="0x7f0f00f3" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:text="New Text" android:singleLine="true" />
+        <TextView android:textSize="0x7f0a005c" android:textColor="0x7f0e0035" android:id="0x7f0f00f4" android:layout_width="-2" android:layout_height="-2" android:text="New Text" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

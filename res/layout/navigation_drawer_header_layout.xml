@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="0x7f0f01bd" app:background="?unknown_attr_ref: 7f01019c" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="0x7f0f01be" app:background="0x7f0e002e" app:layout_width="-1" app:layout_height="-2" app:scaleType="6" app:layout_alignTop="0x7f0f01bf" app:layout_alignBottom="0x7f0f01bf" />
+    <RelativeLayout app:id="0x7f0f01bf" app:padding="0x7f0a009e" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentLeft="true">
+        <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:id="0x7f0f01c0" app:layout_width="0x7f0a00a4" app:layout_height="0x7f0a00a4" app:layout_marginBottom="0x7f0a009d" app:background_color="0x106000b" app:text_color="0x106000b" />
+        <TextView app:textSize="0x7f0a00a3" app:textStyle="1" app:textColor="0x7f0e009b" app:id="0x7f0f01c1" app:layout_width="-2" app:layout_height="-2" app:text="0x7f080019" app:singleLine="true" app:layout_below="0x7f0f01c0" app:layout_alignParentLeft="true" app:layout_alignParentRight="true" style="0x7f0b0181" />
+        <TextView app:textSize="0x7f0a00a3" app:textStyle="0" app:textColor="0x7f0e009b" app:id="0x7f0f01c2" app:layout_width="-2" app:layout_height="-2" app:text="0x7f08001a" app:singleLine="true" app:layout_below="0x7f0f01c1" app:layout_alignRight="0x7f0f01c1" app:layout_alignParentLeft="true" style="0x7f0b0181" />
+    </RelativeLayout>
+</RelativeLayout>

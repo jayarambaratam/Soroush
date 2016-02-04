@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout wheel:paddingLeft="0x7f0a009d" wheel:paddingTop="0x7f0a009c" wheel:paddingRight="0x7f0a009d" wheel:paddingBottom="0x7f0a009c" wheel:clickable="true" wheel:layout_width="-1" wheel:layout_height="-1">
+    <include wheel:id="0x7f0f00f0" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginBottom="0x7f0a009d" wheel:layout_alignParentTop="true" layout="0x7f040042" />
+    <include wheel:id="0x7f0f00f1" wheel:layout_width="-1" wheel:layout_height="-2" wheel:layout_marginBottom="0x7f0a009d" wheel:layout_below="0x7f0f00f0" layout="0x7f04005f" />
+    <LinearLayout wheel:orientation="1" wheel:background="0x7f020051" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_marginRight="0x7f0a009b" wheel:layout_below="0x7f0f00f1" wheel:layout_alignParentLeft="true">
+        <ViewStub wheel:id="0x7f0f00f9" wheel:layout="0x7f040050" wheel:inflatedId="0x7f0f00f9" wheel:layout_width="-2" wheel:layout_height="-2" />
+        <FrameLayout wheel:layout_width="-2" wheel:layout_height="-2">
+            <RelativeLayout wheel:id="0x7f0f00fa" wheel:padding="0x7f0a009c" wheel:layout_width="-2" wheel:layout_height="-2">
+                <ImageButton wheel:id="0x7f0f00fb" wheel:background="0x7f02004f" wheel:layout_width="56dp" wheel:layout_height="56dp" wheel:src="0x7f0203f8" wheel:scaleType="3" />
+                <com.pnikosis.materialishprogress.ProgressWheel wheel:id="@c1119f/progress_wheel" wheel:clickable="false" wheel:layout_width="56dp" wheel:layout_height="56dp" wheel:layout_alignParentLeft="true" wheel:matProg_progressIndeterminate="true" wheel:matProg_barColor="@c1118e/colorControlActivated" wheel:matProg_linearProgress="true" />
+                <SeekBar wheel:theme="0x7f0b017b" wheel:id="0x7f0f0111" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_marginLeft="0x7f0a009d" wheel:layout_toRightOf="0x7f0f00fb" wheel:layout_alignParentRight="true" wheel:layout_centerVertical="true" />
+                <TextView wheel:textSize="0x7f0a005a" wheel:textColor="0x7f0e0094" wheel:gravity="3" wheel:id="0x7f0f00fd" wheel:paddingLeft="0x7f0a009d" wheel:layout_width="-2" wheel:layout_height="-2" wheel:text="New Text" wheel:layout_toRightOf="0x7f0f00fb" wheel:layout_alignBottom="0x7f0f00fb" />
+                <ImageView wheel:layout_width="-2" wheel:layout_height="-2" wheel:src="0x7f020403" wheel:layout_alignLeft="0x7f0f00fb" wheel:layout_alignBottom="0x7f0f00fb" />
+            </RelativeLayout>
+            <RelativeLayout wheel:layout_gravity="55" wheel:paddingLeft="72dp" wheel:paddingTop="0x7f0a009c" wheel:paddingRight="0x7f0a009d" wheel:paddingBottom="0x7f0a009c" wheel:layout_width="-2" wheel:layout_height="-2" wheel:layout_alignRight="0x7f0f00fa" wheel:layout_alignBottom="0x7f0f00fa">
+                <ImageView wheel:id="0x7f0f00fe" wheel:visibility="2" wheel:layout_width="0x7f0a009e" wheel:layout_height="0x7f0a009e" wheel:layout_marginLeft="0x7f0a009c" wheel:src="0x7f020420" wheel:layout_toRightOf="0x7f0f00f4" wheel:layout_alignBottom="0x7f0f00f4" />
+                <TextView wheel:textSize="0x7f0a005c" wheel:textColor="0x7f0e0035" wheel:id="0x7f0f00f4" wheel:layout_width="-2" wheel:layout_height="-2" wheel:text="New Text" wheel:singleLine="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_gravity="1" android:id="@c1119f/scrollView" android:paddingBottom="40dp" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:id="0x7f0f010e" android:layout_width="-1" android:layout_height="-1" />
+    </ScrollView>
+    <TextView android:textSize="0x7f0a005b" android:textStyle="1" android:textColor="@c1118e/textColorPrimary" android:layout_gravity="50" android:id="0x7f0f0122" android:paddingLeft="0x7f0a009b" android:paddingTop="0x7f0a009d" android:paddingRight="0x7f0a009b" android:paddingBottom="0x7f0a009d" android:layout_width="-1" android:layout_height="-2" android:minWidth="64dp" android:text="New Text" />
+</FrameLayout>

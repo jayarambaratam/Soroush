@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="0x7f0a0060" android:textColor="@c1118e/textColorPrimary" android:gravity="11" android:id="0x7f0f00eb" android:paddingLeft="0x7f0a009a" android:paddingRight="0x7f0a009a" android:layout_width="-1" android:layout_height="-2" android:text="0x7f0800e3" android:layout_alignParentTop="true" />
+        <Button android:id="0x7f0f01e4" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0x7f0a009e" android:layout_marginTop="0x7f0a009e" android:layout_marginRight="0x7f0a009e" android:layout_marginBottom="0x7f0a009c" android:text="0x7f080083" android:onClick="onGoToStickerMarketPressed" style="0x7f0b00d7" />
+    </LinearLayout>
+</FrameLayout>

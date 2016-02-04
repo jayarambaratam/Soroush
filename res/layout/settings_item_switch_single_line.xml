@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="0x7f0f00a3" android:clickable="true" android:layout_width="-1" android:layout_height="64dp" style="0x7f0b007c">
+    <TextView android:textSize="0x7f0a0060" android:textColor="@c1118e/textColorPrimary" android:layout_gravity="10" android:id="0x7f0f00eb" android:paddingLeft="0x7f0a009a" android:paddingRight="0x7f0a009e" android:layout_width="-1" android:layout_height="-2" android:text="New Text" android:singleLine="true" android:layout_toLeftOf="0x7f0f01da" android:layout_centerVertical="true" />
+    <View android:id="0x7f0f00ee" android:background="0x7f0e004d" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="0x7f0a009e" android:layout_marginRight="0x7f0a009e" android:layout_alignParentTop="true" />
+    <android.support.v7.widget.SwitchCompat android:id="0x7f0f01da" android:paddingRight="0x7f0a009e" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="0x7f0e002e" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="0x7f0f00a0" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1" app:scaleType="6" />
+    <TextView app:textSize="18sp" app:textStyle="1" app:textColor="0x7f0e009b" app:gravity="11" app:id="0x7f0f00ae" app:paddingLeft="0x7f0a009e" app:paddingTop="0x7f0a009e" app:paddingRight="0x7f0a009e" app:paddingBottom="0x7f0a009b" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="0x7f0a009e" app:text="" app:singleLine="true" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" style="0x7f0b0181" />
+    <FrameLayout app:id="0x7f0f0142" app:layout_width="-1" app:layout_height="-2" app:layout_below="0x7f0f00ae" app:layout_centerHorizontal="true">
+        <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:layout_gravity="11" app:id="0x7f0f0143" app:layout_width="76dp" app:layout_height="76dp" app:background_color="0x106000b" app:text_color="0x106000b" />
+        <mobi.mmdt.componentsutils.view.roundavatarimageview.RoundAvatarImageView app:layout_gravity="11" app:id="0x7f0f00ea" app:layout_width="72dp" app:layout_height="72dp" app:background_color="0x106000b" app:text_color="0x106000b" />
+    </FrameLayout>
+    <TextView app:textSize="24sp" app:textStyle="1" app:textColor="0x7f0e009b" app:gravity="11" app:id="0x7f0f0144" app:paddingLeft="0x7f0a009e" app:paddingRight="0x7f0a009e" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="0x7f0a009e" app:text="New Text" app:singleLine="true" app:layout_below="0x7f0f0142" app:layout_centerHorizontal="true" style="0x7f0b0181" />
+</RelativeLayout>

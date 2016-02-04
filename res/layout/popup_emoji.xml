@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="0x7f0f01d0" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+    <fragment android:name="mobi.mmdt.ott.view.conversation.emojisticker.EmojiStickerPaneFragment" android:id="0x7f0f01d1" android:layout_width="-1" android:layout_height="-2" />
+</FrameLayout>
